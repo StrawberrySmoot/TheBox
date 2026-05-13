@@ -1298,3 +1298,969 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.13-03.56.01:734][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2018.657715
 [2026.05.13-03.56.02:735][570]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.13-03.56.02:736][570]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2019.324219, Update Interval: 327.395233
+[2026.05.13-04.02.09:425][670]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2386.347412
+[2026.05.13-04.02.10:425][673]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-04.02.10:425][673]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2387.013428, Update Interval: 322.579437
+[2026.05.13-04.05.00:668][710]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2026.05.13-04.05.00:730][710]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-04.05.00:971][710]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/Modern_Office/Textures/T_HDRI.T_HDRI', its maximum texture size has been explicitly set to 512.
+[2026.05.13-04.05.00:979][710]LogStreaming: Display: Flushing package /Engine/EditorMeshes/PlanarReflectionPlane (state: WaitingForIo) recursively from another package /Game/Modern_Office/Maps/L_Showcase (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.05.13-04.05.00:979][710]LogStreaming: Display: Package /Game/Modern_Office/Maps/L_Showcase is adding a dynamic import to package /Engine/EditorMeshes/PlanarReflectionPlane because of a recursive sync load
+[2026.05.13-04.05.00:979][710]LogStreaming: Display: Flushing package /Engine/EditorMeshes/PlanarReflectionPlane (state: DeferredPostLoad) recursively from another package /Game/Modern_Office/Maps/L_Showcase (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.05.13-04.05.00:979][710]LogStreaming: Display: Flushing package /Engine/EditorMeshes/ColorCalibrator/M_ChromeBall (state: WaitingForIo) recursively from another package /Game/Modern_Office/Maps/L_Showcase (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.05.13-04.05.00:980][710]LogStreaming: Display: Package /Game/Modern_Office/Maps/L_Showcase is adding a dynamic import to package /Engine/EditorMeshes/ColorCalibrator/M_ChromeBall because of a recursive sync load
+[2026.05.13-04.05.00:980][710]LogStreaming: Display: Flushing package /Engine/EditorMeshes/ColorCalibrator/M_ChromeBall (state: DeferredPostLoad) recursively from another package /Game/Modern_Office/Maps/L_Showcase (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.05.13-04.05.00:980][710]LogStaticMesh: Display: Building static mesh PlanarReflectionPlane (Required Memory Estimate: 2.920407 MB)...
+[2026.05.13-04.05.00:988][710]LogEnum: Warning: UEnum: In asset '/Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.Shot11.CameraComponent', there is an enum property of type 'ECameraFocusMethod' with an invalid value of 'ECameraFocusMethod::None' - loaded - 5
+[2026.05.13-04.05.00:991][710]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/PlanarReflectionPlane.PlanarReflectionPlane
+[2026.05.13-04.05.02:317][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_14 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:332][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:332][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:338][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_13 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:340][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_10 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:341][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap0_12 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:341][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:341][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_11 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.02:411][710]LogStaticMesh: Display: Building static mesh SM_FloorB_4x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:412][710]LogStaticMesh: Display: Building static mesh SM_FloorB_4x4 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:412][710]LogStaticMesh: Display: Building static mesh SM_LampC (Required Memory Estimate: 0.096391 MB)...
+[2026.05.13-04.05.02:413][710]LogStaticMesh: Display: Building static mesh SM_WallLamp (Required Memory Estimate: 0.463288 MB)...
+[2026.05.13-04.05.02:413][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorB_4x2.SM_FloorB_4x2
+[2026.05.13-04.05.02:413][710]LogStaticMesh: Display: Building static mesh SM_LampB_B (Required Memory Estimate: 0.188796 MB)...
+[2026.05.13-04.05.02:413][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorB_4x4.SM_FloorB_4x4
+[2026.05.13-04.05.02:415][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_LampC.SM_LampC
+[2026.05.13-04.05.02:415][710]LogStaticMesh: Display: Building static mesh SM_LampB_C (Required Memory Estimate: 0.918946 MB)...
+[2026.05.13-04.05.02:416][710]LogStaticMesh: Display: Building static mesh SM_LampBCable (Required Memory Estimate: 0.051543 MB)...
+[2026.05.13-04.05.02:416][710]LogStaticMesh: Display: Building static mesh SM_LampB (Required Memory Estimate: 2.179255 MB)...
+[2026.05.13-04.05.02:416][710]LogStaticMesh: Display: Building static mesh SM_TableATopRound (Required Memory Estimate: 6.861292 MB)...
+[2026.05.13-04.05.02:418][710]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Showcase
+[2026.05.13-04.05.02:420][710]LogStaticMesh: Display: Building static mesh SM_TableASupport (Required Memory Estimate: 2.622971 MB)...
+[2026.05.13-04.05.02:420][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_LampBCable.SM_LampBCable
+[2026.05.13-04.05.02:430][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_LampB_B.SM_LampB_B
+[2026.05.13-04.05.02:430][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_WallLamp.SM_WallLamp
+[2026.05.13-04.05.02:431][710]LogStaticMesh: Display: Building static mesh SM_TableATop (Required Memory Estimate: 0.448929 MB)...
+[2026.05.13-04.05.02:431][710]LogStaticMesh: Display: Building static mesh SM_VegetationA (Required Memory Estimate: 3.397127 MB)...
+[2026.05.13-04.05.02:431][710]LogStaticMesh: Display: Building static mesh SM_VegetationB (Required Memory Estimate: 2.375248 MB)...
+[2026.05.13-04.05.02:447][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_LampB_C.SM_LampB_C
+[2026.05.13-04.05.02:448][710]LogStaticMesh: Display: Building static mesh SM_VegetationC (Required Memory Estimate: 6.032348 MB)...
+[2026.05.13-04.05.02:448][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_TableATop.SM_TableATop
+[2026.05.13-04.05.02:450][710]LogStaticMesh: Display: Building static mesh SM_VegetationD (Required Memory Estimate: 1.104431 MB)...
+[2026.05.13-04.05.02:482][710]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Modern_Office/Maps/L_Showcase.L_Showcase
+[2026.05.13-04.05.02:482][710]Cmd: MAP LOAD FILE="../../../../../../TheBox/TheBox/Content/Modern_Office/Maps/L_Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.13-04.05.02:499][710]LogStaticMesh: Built static mesh [0.05s] /Game/Modern_Office/Meshes/SM_VegetationD.SM_VegetationD
+[2026.05.13-04.05.02:501][710]LogStaticMesh: Display: Building static mesh SM_ChairA (Required Memory Estimate: 20.714126 MB)...
+[2026.05.13-04.05.02:507][710]LogStaticMesh: Built static mesh [0.08s] /Game/Modern_Office/Meshes/SM_VegetationA.SM_VegetationA
+[2026.05.13-04.05.02:511][710]LogStaticMesh: Display: Building static mesh SM_ChairB (Required Memory Estimate: 6.476604 MB)...
+[2026.05.13-04.05.02:523][710]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-04.05.02:524][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-04.05.02:524][710]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.05.13-04.05.02:530][710]LogStaticMesh: Built static mesh [0.12s] /Game/Modern_Office/Meshes/SM_LampB.SM_LampB
+[2026.05.13-04.05.02:532][710]LogStaticMesh: Display: Building static mesh SM_DecorationA (Required Memory Estimate: 1.389912 MB)...
+[2026.05.13-04.05.02:540][710]LogStaticMesh: Built static mesh [0.11s] /Game/Modern_Office/Meshes/SM_VegetationB.SM_VegetationB
+[2026.05.13-04.05.02:542][710]LogStaticMesh: Display: Building static mesh SM_DecorationB (Required Memory Estimate: 0.904881 MB)...
+[2026.05.13-04.05.02:544][710]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.13-04.05.02:561][710]LogStaticMesh: Built static mesh [0.14s] /Game/Modern_Office/Meshes/SM_TableASupport.SM_TableASupport
+[2026.05.13-04.05.02:564][710]LogStaticMesh: Display: Building static mesh SM_DecorationC (Required Memory Estimate: 1.057254 MB)...
+[2026.05.13-04.05.02:571][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_DecorationB.SM_DecorationB
+[2026.05.13-04.05.02:573][710]LogStaticMesh: Display: Building static mesh SM_DecorationD (Required Memory Estimate: 0.967739 MB)...
+[2026.05.13-04.05.02:580][710]LogStaticMesh: Built static mesh [0.05s] /Game/Modern_Office/Meshes/SM_DecorationA.SM_DecorationA
+[2026.05.13-04.05.02:581][710]LogStaticMesh: Display: Building static mesh SM_DecorationE (Required Memory Estimate: 0.327404 MB)...
+[2026.05.13-04.05.02:591][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_DecorationE.SM_DecorationE
+[2026.05.13-04.05.02:592][710]LogStaticMesh: Display: Building static mesh SM_DecorationF (Required Memory Estimate: 0.327404 MB)...
+[2026.05.13-04.05.02:600][710]LogStaticMesh: Built static mesh [0.04s] /Game/Modern_Office/Meshes/SM_DecorationC.SM_DecorationC
+[2026.05.13-04.05.02:601][710]LogStaticMesh: Display: Building static mesh SM_DecorationG (Required Memory Estimate: 0.743168 MB)...
+[2026.05.13-04.05.02:604][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_DecorationD.SM_DecorationD
+[2026.05.13-04.05.02:605][710]LogStaticMesh: Display: Building static mesh SM_DecorationH (Required Memory Estimate: 0.974148 MB)...
+[2026.05.13-04.05.02:605][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_DecorationF.SM_DecorationF
+[2026.05.13-04.05.02:606][710]LogStaticMesh: Display: Building static mesh SM_DecorPanelA (Required Memory Estimate: 0.018792 MB)...
+[2026.05.13-04.05.02:607][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_DecorPanelA.SM_DecorPanelA
+[2026.05.13-04.05.02:608][710]LogStaticMesh: Display: Building static mesh SM_DecorPanelB (Required Memory Estimate: 0.018792 MB)...
+[2026.05.13-04.05.02:608][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.05.13-04.05.02:608][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_DecorPanelB.SM_DecorPanelB
+[2026.05.13-04.05.02:609][710]LogStaticMesh: Display: Building static mesh SM_DecorPanelC (Required Memory Estimate: 0.018792 MB)...
+[2026.05.13-04.05.02:610][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_DecorPanelC.SM_DecorPanelC
+[2026.05.13-04.05.02:611][710]LogStaticMesh: Display: Building static mesh SM_DecorPanelD (Required Memory Estimate: 0.018792 MB)...
+[2026.05.13-04.05.02:611][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_DecorPanelD.SM_DecorPanelD
+[2026.05.13-04.05.02:612][710]LogStaticMesh: Display: Building static mesh SM_DecorShelfA (Required Memory Estimate: 0.174837 MB)...
+[2026.05.13-04.05.02:619][710]LogStaticMesh: Display: Building static mesh SM_BookE (Required Memory Estimate: 0.233503 MB)...
+[2026.05.13-04.05.02:619][710]LogStaticMesh: Display: Building static mesh SM_BookD (Required Memory Estimate: 0.186533 MB)...
+[2026.05.13-04.05.02:623][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_DecorShelfA.SM_DecorShelfA
+[2026.05.13-04.05.02:624][710]LogStaticMesh: Display: Building static mesh SM_BookF (Required Memory Estimate: 0.186533 MB)...
+[2026.05.13-04.05.02:627][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookD.SM_BookD
+[2026.05.13-04.05.02:628][710]LogStaticMesh: Display: Building static mesh SM_BookC (Required Memory Estimate: 0.204237 MB)...
+[2026.05.13-04.05.02:629][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookE.SM_BookE
+[2026.05.13-04.05.02:630][710]LogStaticMesh: Display: Building static mesh SM_BookB (Required Memory Estimate: 0.204237 MB)...
+[2026.05.13-04.05.02:631][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookF.SM_BookF
+[2026.05.13-04.05.02:632][710]LogStaticMesh: Display: Building static mesh SM_BookA (Required Memory Estimate: 0.204237 MB)...
+[2026.05.13-04.05.02:635][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_DecorationG.SM_DecorationG
+[2026.05.13-04.05.02:636][710]LogStaticMesh: Display: Waiting for static meshes to be ready 28/104 (/Game/Modern_Office/Meshes/SM_BookC) ...
+[2026.05.13-04.05.02:636][710]LogStaticMesh: Display: Building static mesh SM_StatueB (Required Memory Estimate: 1.38411 MB)...
+[2026.05.13-04.05.02:637][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookC.SM_BookC
+[2026.05.13-04.05.02:638][710]LogStaticMesh: Display: Building static mesh SM_LampBBase (Required Memory Estimate: 0.825253 MB)...
+[2026.05.13-04.05.02:640][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookB.SM_BookB
+[2026.05.13-04.05.02:641][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_BookA.SM_BookA
+[2026.05.13-04.05.02:641][710]LogStaticMesh: Display: Building static mesh SM_Projector (Required Memory Estimate: 0.460204 MB)...
+[2026.05.13-04.05.02:641][710]LogStaticMesh: Display: Building static mesh SM_Door (Required Memory Estimate: 2.636549 MB)...
+[2026.05.13-04.05.02:643][710]LogStaticMesh: Built static mesh [0.04s] /Game/Modern_Office/Meshes/SM_DecorationH.SM_DecorationH
+[2026.05.13-04.05.02:645][710]LogStaticMesh: Display: Building static mesh SM_VegetationE (Required Memory Estimate: 21.991204 MB)...
+[2026.05.13-04.05.02:652][710]LogStaticMesh: Display: Waiting for static meshes to be ready 32/104 (/Game/Modern_Office/Meshes/SM_StatueB) ...
+[2026.05.13-04.05.02:655][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_Projector.SM_Projector
+[2026.05.13-04.05.02:656][710]LogStaticMesh: Display: Building static mesh SM_Glass_End (Required Memory Estimate: 0.051216 MB)...
+[2026.05.13-04.05.02:659][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_Glass_End.SM_Glass_End
+[2026.05.13-04.05.02:659][710]LogStaticMesh: Display: Building static mesh SM_WoodBeam_4m (Required Memory Estimate: 0.021389 MB)...
+[2026.05.13-04.05.02:661][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WoodBeam_4m.SM_WoodBeam_4m
+[2026.05.13-04.05.02:662][710]LogStaticMesh: Display: Building static mesh SM_WallA_2_5x2 (Required Memory Estimate: 0.021376 MB)...
+[2026.05.13-04.05.02:664][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_2_5x2.SM_WallA_2_5x2
+[2026.05.13-04.05.02:664][710]LogStaticMesh: Display: Building static mesh SM_CeilingA_4x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:665][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_CeilingA_4x1.SM_CeilingA_4x1
+[2026.05.13-04.05.02:666][710]LogStaticMesh: Display: Building static mesh SM_CeilingA_4x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:667][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_CeilingA_4x2.SM_CeilingA_4x2
+[2026.05.13-04.05.02:667][710]LogStaticMesh: Display: Building static mesh SM_SofaB (Required Memory Estimate: 6.866619 MB)...
+[2026.05.13-04.05.02:671][710]LogStaticMesh: Built static mesh [0.04s] /Game/Modern_Office/Meshes/SM_StatueB.SM_StatueB
+[2026.05.13-04.05.02:674][710]LogStaticMesh: Display: Building static mesh SM_WallB_4x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:674][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallB_4x2.SM_WallB_4x2
+[2026.05.13-04.05.02:675][710]LogStaticMesh: Display: Building static mesh SM_WallA_2_5x4 (Required Memory Estimate: 0.021376 MB)...
+[2026.05.13-04.05.02:677][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_2_5x4.SM_WallA_2_5x4
+[2026.05.13-04.05.02:678][710]LogStaticMesh: Display: Building static mesh SM_WallA_0_5x4 (Required Memory Estimate: 0.021376 MB)...
+[2026.05.13-04.05.02:679][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_0_5x4.SM_WallA_0_5x4
+[2026.05.13-04.05.02:679][710]LogStaticMesh: Display: Building static mesh SM_WallA_0_5x1 (Required Memory Estimate: 0.021376 MB)...
+[2026.05.13-04.05.02:680][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_0_5x1.SM_WallA_0_5x1
+[2026.05.13-04.05.02:681][710]LogStaticMesh: Display: Building static mesh SM_PlanterA (Required Memory Estimate: 6.104445 MB)...
+[2026.05.13-04.05.02:684][710]LogStaticMesh: Display: Waiting for static meshes to be ready 40/104 (/Game/Modern_Office/Meshes/SM_VegetationC) ...
+[2026.05.13-04.05.02:692][710]LogStaticMesh: Built static mesh [0.05s] /Game/Modern_Office/Meshes/SM_LampBBase.SM_LampBBase
+[2026.05.13-04.05.02:694][710]LogStaticMesh: Display: Building static mesh SM_WoodPillar_4m (Required Memory Estimate: 0.25526 MB)...
+[2026.05.13-04.05.02:705][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_WoodPillar_4m.SM_WoodPillar_4m
+[2026.05.13-04.05.02:706][710]LogStaticMesh: Display: Building static mesh SM_StatueA (Required Memory Estimate: 12.438142 MB)...
+[2026.05.13-04.05.02:714][710]LogStaticMesh: Built static mesh [0.27s] /Game/Modern_Office/Meshes/SM_VegetationC.SM_VegetationC
+[2026.05.13-04.05.02:720][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Lounge_1m (Required Memory Estimate: 0.02187 MB)...
+[2026.05.13-04.05.02:723][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Lounge_1m.SM_FloorEdge_Lounge_1m
+[2026.05.13-04.05.02:724][710]LogStaticMesh: Display: Building static mesh SM_FloorA_2x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:724][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_2x1.SM_FloorA_2x1
+[2026.05.13-04.05.02:725][710]LogStaticMesh: Display: Building static mesh SM_SofaA (Required Memory Estimate: 1.878561 MB)...
+[2026.05.13-04.05.02:733][710]LogStaticMesh: Display: Waiting for static meshes to be ready 47/104 (/Game/Modern_Office/Meshes/SM_Door) ...
+[2026.05.13-04.05.02:790][710]LogStaticMesh: Built static mesh [0.15s] /Game/Modern_Office/Meshes/SM_Door.SM_Door
+[2026.05.13-04.05.02:793][710]LogStaticMesh: Display: Building static mesh SM_PlanterE (Required Memory Estimate: 0.447907 MB)...
+[2026.05.13-04.05.02:797][710]LogStaticMesh: Display: Waiting for static meshes to be ready 50/104 (/Game/Modern_Office/Meshes/SM_VegetationE) ...
+[2026.05.13-04.05.02:806][710]LogStaticMesh: Built static mesh [0.39s] /Game/Modern_Office/Meshes/SM_TableATopRound.SM_TableATopRound
+[2026.05.13-04.05.02:808][710]LogStaticMesh: Built static mesh [0.30s] /Game/Modern_Office/Meshes/SM_ChairB.SM_ChairB
+[2026.05.13-04.05.02:812][710]LogStaticMesh: Display: Building static mesh SM_PlanterD (Required Memory Estimate: 0.436298 MB)...
+[2026.05.13-04.05.02:814][710]LogStaticMesh: Display: Building static mesh SM_WoodBeam_2m (Required Memory Estimate: 0.021389 MB)...
+[2026.05.13-04.05.02:816][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WoodBeam_2m.SM_WoodBeam_2m
+[2026.05.13-04.05.02:817][710]LogStaticMesh: Display: Building static mesh SM_WallB_4x0_3 (Required Memory Estimate: 0.007243 MB)...
+[2026.05.13-04.05.02:818][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallB_4x0_3.SM_WallB_4x0_3
+[2026.05.13-04.05.02:819][710]LogStaticMesh: Display: Building static mesh SM_DecorShelfB (Required Memory Estimate: 0.328899 MB)...
+[2026.05.13-04.05.02:822][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_PlanterE.SM_PlanterE
+[2026.05.13-04.05.02:823][710]LogStaticMesh: Display: Building static mesh SM_WallB_4x4 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:824][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallB_4x4.SM_WallB_4x4
+[2026.05.13-04.05.02:824][710]LogStaticMesh: Display: Building static mesh SM_WallB_4x4_Door (Required Memory Estimate: 0.0144 MB)...
+[2026.05.13-04.05.02:825][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallB_4x4_Door.SM_WallB_4x4_Door
+[2026.05.13-04.05.02:825][710]LogStaticMesh: Display: Building static mesh SM_Frame01 (Required Memory Estimate: 0.275594 MB)...
+[2026.05.13-04.05.02:832][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_DecorShelfB.SM_DecorShelfB
+[2026.05.13-04.05.02:834][710]LogStaticMesh: Display: Building static mesh SM_FloorA_4x4 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:834][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_4x4.SM_FloorA_4x4
+[2026.05.13-04.05.02:835][710]LogStaticMesh: Display: Building static mesh SM_CeilingA_2x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:835][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_PlanterD.SM_PlanterD
+[2026.05.13-04.05.02:835][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_CeilingA_2x2.SM_CeilingA_2x2
+[2026.05.13-04.05.02:836][710]LogStaticMesh: Display: Building static mesh SM_WallA_0_5x2 (Required Memory Estimate: 0.021376 MB)...
+[2026.05.13-04.05.02:836][710]LogStaticMesh: Display: Building static mesh SM_Glass_4x2 (Required Memory Estimate: 0.107419 MB)...
+[2026.05.13-04.05.02:837][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_0_5x2.SM_WallA_0_5x2
+[2026.05.13-04.05.02:837][710]LogStaticMesh: Built static mesh [0.11s] /Game/Modern_Office/Meshes/SM_SofaA.SM_SofaA
+[2026.05.13-04.05.02:837][710]LogStaticMesh: Display: Building static mesh SM_Glass_4x4 (Required Memory Estimate: 0.169103 MB)...
+[2026.05.13-04.05.02:839][710]LogStaticMesh: Display: Building static mesh SM_PlanterC (Required Memory Estimate: 0.509297 MB)...
+[2026.05.13-04.05.02:841][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_Frame01.SM_Frame01
+[2026.05.13-04.05.02:841][710]LogStaticMesh: Display: Building static mesh SM_FloorA_4x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:842][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_4x1.SM_FloorA_4x1
+[2026.05.13-04.05.02:843][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_Glass_4x2.SM_Glass_4x2
+[2026.05.13-04.05.02:843][710]LogStaticMesh: Display: Building static mesh SM_CeilingA_4x4 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:844][710]LogStaticMesh: Display: Building static mesh SM_FloorA_4x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:844][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_CeilingA_4x4.SM_CeilingA_4x4
+[2026.05.13-04.05.02:844][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_Glass_4x4.SM_Glass_4x4
+[2026.05.13-04.05.02:844][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_4x2.SM_FloorA_4x2
+[2026.05.13-04.05.02:844][710]LogStaticMesh: Display: Building static mesh SM_ParametricWall (Required Memory Estimate: 3.14859 MB)...
+[2026.05.13-04.05.02:845][710]LogStaticMesh: Display: Building static mesh SM_StairsA_2m (Required Memory Estimate: 0.096397 MB)...
+[2026.05.13-04.05.02:845][710]LogStaticMesh: Display: Building static mesh SM_WoodBeamCross_4m (Required Memory Estimate: 0.079094 MB)...
+[2026.05.13-04.05.02:848][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_StairsA_2m.SM_StairsA_2m
+[2026.05.13-04.05.02:849][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Lounge_2m (Required Memory Estimate: 0.02187 MB)...
+[2026.05.13-04.05.02:849][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WoodBeamCross_4m.SM_WoodBeamCross_4m
+[2026.05.13-04.05.02:850][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Lounge_Corner1m (Required Memory Estimate: 0.030695 MB)...
+[2026.05.13-04.05.02:851][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Lounge_2m.SM_FloorEdge_Lounge_2m
+[2026.05.13-04.05.02:851][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Pool_2m (Required Memory Estimate: 0.016476 MB)...
+[2026.05.13-04.05.02:853][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Lounge_Corner1m.SM_FloorEdge_Lounge_Corner1m
+[2026.05.13-04.05.02:853][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Pool_1m (Required Memory Estimate: 0.016476 MB)...
+[2026.05.13-04.05.02:854][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Pool_2m.SM_FloorEdge_Pool_2m
+[2026.05.13-04.05.02:855][710]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Pool_Corner1m (Required Memory Estimate: 0.028205 MB)...
+[2026.05.13-04.05.02:855][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Pool_1m.SM_FloorEdge_Pool_1m
+[2026.05.13-04.05.02:856][710]LogStaticMesh: Display: Building static mesh SM_Stairs_1m (Required Memory Estimate: 0.096397 MB)...
+[2026.05.13-04.05.02:858][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Pool_Corner1m.SM_FloorEdge_Pool_Corner1m
+[2026.05.13-04.05.02:859][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_PlanterC.SM_PlanterC
+[2026.05.13-04.05.02:859][710]LogStaticMesh: Display: Building static mesh SM_Stairs_1mCorner (Required Memory Estimate: 0.104762 MB)...
+[2026.05.13-04.05.02:859][710]LogStaticMesh: Display: Building static mesh SM_DecorShelfC (Required Memory Estimate: 0.183035 MB)...
+[2026.05.13-04.05.02:861][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_Stairs_1m.SM_Stairs_1m
+[2026.05.13-04.05.02:861][710]LogStaticMesh: Display: Building static mesh SM_Frame03 (Required Memory Estimate: 0.206353 MB)...
+[2026.05.13-04.05.02:861][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_Stairs_1mCorner.SM_Stairs_1mCorner
+[2026.05.13-04.05.02:863][710]LogStaticMesh: Display: Building static mesh SM_Frame02 (Required Memory Estimate: 0.28721 MB)...
+[2026.05.13-04.05.02:872][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_DecorShelfC.SM_DecorShelfC
+[2026.05.13-04.05.02:873][710]LogStaticMesh: Display: Building static mesh SM_Shelf (Required Memory Estimate: 0.655829 MB)...
+[2026.05.13-04.05.02:875][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_Frame03.SM_Frame03
+[2026.05.13-04.05.02:876][710]LogStaticMesh: Display: Building static mesh SM_FloorA_2x2 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:877][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_2x2.SM_FloorA_2x2
+[2026.05.13-04.05.02:878][710]LogStaticMesh: Display: Building static mesh SM_Pillar_4m (Required Memory Estimate: 6.15976 MB)...
+[2026.05.13-04.05.02:878][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_Frame02.SM_Frame02
+[2026.05.13-04.05.02:879][710]LogStaticMesh: Display: Building static mesh SM_Doorframe (Required Memory Estimate: 2.722786 MB)...
+[2026.05.13-04.05.02:904][710]LogStaticMesh: Built static mesh [0.03s] /Game/Modern_Office/Meshes/SM_Shelf.SM_Shelf
+[2026.05.13-04.05.02:906][710]LogStaticMesh: Display: Building static mesh SM_WallA_4x2 (Required Memory Estimate: 0.007243 MB)...
+[2026.05.13-04.05.02:907][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_4x2.SM_WallA_4x2
+[2026.05.13-04.05.02:907][710]LogStaticMesh: Display: Building static mesh SM_WallA_4x4 (Required Memory Estimate: 0.016456 MB)...
+[2026.05.13-04.05.02:908][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_4x4.SM_WallA_4x4
+[2026.05.13-04.05.02:909][710]LogStaticMesh: Display: Building static mesh SM_FloorD_4x4 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:909][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorD_4x4.SM_FloorD_4x4
+[2026.05.13-04.05.02:909][710]LogStaticMesh: Display: Building static mesh SM_FloorC_4x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.05.02:910][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorC_4x1.SM_FloorC_4x1
+[2026.05.13-04.05.02:910][710]LogStaticMesh: Display: Building static mesh SM_FloorC_4x4 (Required Memory Estimate: 0.007243 MB)...
+[2026.05.13-04.05.02:911][710]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorC_4x4.SM_FloorC_4x4
+[2026.05.13-04.05.02:911][710]LogStaticMesh: Display: Building static mesh SM_PlanterB (Required Memory Estimate: 10.506883 MB)...
+[2026.05.13-04.05.03:001][710]LogStaticMesh: Built static mesh [0.34s] /Game/Modern_Office/Meshes/SM_SofaB.SM_SofaB
+[2026.05.13-04.05.03:009][710]LogStaticMesh: Display: Building static mesh SM_TableD (Required Memory Estimate: 17.384457 MB)...
+[2026.05.13-04.05.03:026][710]LogStaticMesh: Built static mesh [0.15s] /Game/Modern_Office/Meshes/SM_Doorframe.SM_Doorframe
+[2026.05.13-04.05.03:030][710]LogStaticMesh: Display: Building static mesh SM_TableB (Required Memory Estimate: 0.252356 MB)...
+[2026.05.13-04.05.03:040][710]LogStaticMesh: Built static mesh [0.01s] /Game/Modern_Office/Meshes/SM_TableB.SM_TableB
+[2026.05.13-04.05.03:041][710]LogStaticMesh: Built static mesh [0.20s] /Game/Modern_Office/Meshes/SM_ParametricWall.SM_ParametricWall
+[2026.05.13-04.05.03:041][710]LogStaticMesh: Display: Building static mesh SM_TableC (Required Memory Estimate: 0.931463 MB)...
+[2026.05.13-04.05.03:044][710]LogStaticMesh: Display: Building static mesh SM_LampA (Required Memory Estimate: 4.366195 MB)...
+[2026.05.13-04.05.03:060][710]LogStaticMesh: Built static mesh [0.38s] /Game/Modern_Office/Meshes/SM_PlanterA.SM_PlanterA
+[2026.05.13-04.05.03:065][710]LogStaticMesh: Display: Building static mesh SM_LampA_A (Required Memory Estimate: 0.629787 MB)...
+[2026.05.13-04.05.03:085][710]LogStaticMesh: Built static mesh [0.02s] /Game/Modern_Office/Meshes/SM_LampA_A.SM_LampA_A
+[2026.05.13-04.05.03:086][710]LogStaticMesh: Display: Building static mesh SM_DisplayShelf (Required Memory Estimate: 6.396014 MB)...
+[2026.05.13-04.05.03:110][710]LogStaticMesh: Built static mesh [0.07s] /Game/Modern_Office/Meshes/SM_TableC.SM_TableC
+[2026.05.13-04.05.03:158][710]LogStaticMesh: Built static mesh [0.07s] /Game/Modern_Office/Meshes/SM_DisplayShelf.SM_DisplayShelf
+[2026.05.13-04.05.03:191][710]LogStaticMesh: Built static mesh [0.31s] /Game/Modern_Office/Meshes/SM_Pillar_4m.SM_Pillar_4m
+[2026.05.13-04.05.03:212][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:246][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:275][710]LogStaticMesh: Built static mesh [0.23s] /Game/Modern_Office/Meshes/SM_LampA.SM_LampA
+[2026.05.13-04.05.03:285][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:301][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_7 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:333][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_8 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:338][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:HQ_Lightmap1_9 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:378][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:378][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_0_12 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:416][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_10 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:419][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_11 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:443][710]LogStaticMesh: Built static mesh [0.74s] /Game/Modern_Office/Meshes/SM_StatueA.SM_StatueA
+[2026.05.13-04.05.03:445][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_14 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:457][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_13 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:458][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:471][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:502][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:509][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:517][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_6 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:551][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_8 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:555][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_7 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:558][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:LQ_Lightmap_1_9 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:584][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:ShadowMapTexture2D_10 (BGRA8, 1024x256 x1x1x1) (Required Memory Estimate: 10.333332 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:598][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:ShadowMapTexture2D_7 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:599][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:ShadowMapTexture2D_6 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:600][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:ShadowMapTexture2D_8 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:613][710]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Showcase_BuiltData.L_Showcase_BuiltData:ShadowMapTexture2D_9 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 38.333324 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:684][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorB_ORM.T_FloorB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:696][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorB_N.T_FloorB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:715][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorB_B.T_FloorB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:878][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampB_E.T_LampB_E (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:915][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampB_N.T_LampB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:928][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampB_B.T_LampB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:951][710]LogStaticMesh: Built static mesh [1.31s] /Game/Modern_Office/Meshes/SM_VegetationE.SM_VegetationE
+[2026.05.13-04.05.03:980][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampB_ORM.T_LampB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.03:980][710]LogStaticMesh: Display: Waiting for static meshes to be ready 101/104 (/Game/Modern_Office/Meshes/SM_ChairA) ...
+[2026.05.13-04.05.03:989][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableA_ID.T_TableA_ID (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:056][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableA_B.T_TableA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:089][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableA_N.T_TableA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:095][710]LogStaticMesh: Built static mesh [1.18s] /Game/Modern_Office/Meshes/SM_PlanterB.SM_PlanterB
+[2026.05.13-04.05.04:126][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableA_ORM.T_TableA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:130][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableWood_B.T_TableWood_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:197][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableWood_N.T_TableWood_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:211][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableWood_ORM.T_TableWood_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:323][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/Sample/T_BaseColor_B.T_BaseColor_B (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:325][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/Sample/T_Mask.T_Mask (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:325][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/Sample/T_Norm_N.T_Norm_N (TFO_BC5, 128x128 x1x1x1) (Required Memory Estimate: 5.62493 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:326][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/Sample/T_ORM.T_ORM (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:327][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Vegetation02_B_.T_Vegetation02_B_ (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:327][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/Sample/T_RGB_Mask.T_RGB_Mask (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:327][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Vegetation_ORM.T_Vegetation_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:330][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Vegetation_N.T_Vegetation_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:355][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Projector.T_Projector (TFO_AutoDXT, 2048x1024 x1x1x1) (Required Memory Estimate: 170.416647 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:376][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_HDRI.T_HDRI (RGBA16F, 2048x1024 x1x1x1) (Required Memory Estimate: 65.000 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:392][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Vegetation01_B.T_Vegetation01_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:393][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Vegetation_SSS.T_Vegetation_SSS (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:420][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Water_N.T_Water_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:430][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Book_B.T_Book_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:433][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Book_N.T_Book_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:437][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Book_ORM.T_Book_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:453][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Book_RGB.T_Book_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:509][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_CeilingA_B.T_CeilingA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:528][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_CeilingA_ORM.T_CeilingA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:534][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_GrungeMap.T_GrungeMap (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:536][710]LogStaticMesh: Built static mesh [2.03s] /Game/Modern_Office/Meshes/SM_ChairA.SM_ChairA
+[2026.05.13-04.05.04:549][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairA_B.T_ChairA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:564][710]LogStaticMesh: Display: Waiting for static meshes to be ready 103/104 (/Game/Modern_Office/Meshes/SM_TableD) ...
+[2026.05.13-04.05.04:602][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_CeilingA_N.T_CeilingA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:640][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairA_N.T_ChairA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:780][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Decoration_N.T_Decoration_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:791][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairB_ORM.T_ChairB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:794][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairB_B.T_ChairB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:802][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairA_ORM.T_ChairA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:811][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ChairB_N.T_ChairB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.04:824][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Decoration_B.T_Decoration_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:101][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Decoration_ORM.T_Decoration_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:111][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_A_ORM.T_DecorPanel_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:117][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_A_B.T_DecorPanel_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:117][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_B_N.T_DecorPanel_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:134][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_A_N.T_DecorPanel_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:135][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_B_B.T_DecorPanel_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:256][710]LogStaticMesh: Built static mesh [2.25s] /Game/Modern_Office/Meshes/SM_TableD.SM_TableD
+[2026.05.13-04.05.05:400][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_C_N.T_DecorPanel_C_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:420][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_B_ORM.T_DecorPanel_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:430][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_D_ORM.T_DecorPanel_D_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:432][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_C_ORM.T_DecorPanel_C_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:434][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_D_N.T_DecorPanel_D_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:439][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_D_B.T_DecorPanel_D_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:456][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorPanel_C_B.T_DecorPanel_C_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:760][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorShelf_N.T_DecorShelf_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:763][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorShelf_ORM.T_DecorShelf_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.05:769][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DecorShelf_B.T_DecorShelf_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:065][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_A_B.T_Door_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:131][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_B_N.T_Door_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:134][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_B_B.T_Door_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:135][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_A_N.T_Door_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:139][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_A_ORM.T_Door_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:221][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Door_B_ORM.T_Door_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:248][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorA_B.T_FloorA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:530][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorA_ORM.T_FloorA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:537][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorA_N.T_FloorA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:547][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorC_N.T_FloorC_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:580][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorC_ORM.T_FloorC_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:591][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorC_B.T_FloorC_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:604][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorD_B.T_FloorD_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:620][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorD_N.T_FloorD_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.06:978][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorD_ORM.T_FloorD_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:027][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorEdge_ORM.T_FloorEdge_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:034][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorEdge_B.T_FloorEdge_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:037][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FloorEdge_N.T_FloorEdge_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:049][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_A_N.T_Frame_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:051][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_A_ORM.T_Frame_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:053][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_A_B.T_Frame_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:349][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FrameC_ORM.T_FrameC_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:395][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_B_ORM.T_Frame_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 97.000 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:418][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PaintingB_B.T_PaintingB_B (BGRA8, 1920x1285 x1x1x1) (Required Memory Estimate: 85.70459 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:420][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PaintingA_B.T_PaintingA_B (BGRA8, 1920x1483 x1x1x1) (Required Memory Estimate: 98.756348 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:430][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_FrameC_N.T_FrameC_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:434][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_B_N.T_Frame_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 97.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:443][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Frame_B_B.T_Frame_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 97.000 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:624][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WindowFrame_B.T_WindowFrame_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:628][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Glass_B.T_Glass_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:646][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WindowFrame_N.T_WindowFrame_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:664][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PaintingC_B.T_PaintingC_B (BGRA8, 1920x1581 x1x1x1) (Required Memory Estimate: 105.216309 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:679][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Glass_ORM.T_Glass_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:695][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Glass_N.T_Glass_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:779][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WindowFrame_ORM.T_WindowFrame_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:871][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampBBase_B.T_LampBBase_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:922][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampBBase_N.T_LampBBase_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:939][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampBBase_ORM.T_LampBBase_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:949][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PillarA_B.T_PillarA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:957][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PillarA_ORM.T_PillarA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:981][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterA_B.T_PlanterA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.07:983][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PillarA_N.T_PillarA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:186][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterA_N.T_PlanterA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:199][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterA_ORM.T_PlanterA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:199][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterB_B.T_PlanterB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:234][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterB_N.T_PlanterB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:239][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterC_B.T_PlanterC_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:244][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterB_ORM.T_PlanterB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:269][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterC_N.T_PlanterC_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:718][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterC_ORM.T_PlanterC_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:734][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterD_B.T_PlanterD_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:765][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterD_ORM.T_PlanterD_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:776][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterD_N.T_PlanterD_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.08:787][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterE_B.T_PlanterE_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:005][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Projector_N.T_Projector_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:011][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Projector_B.T_Projector_B (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:015][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Projector_ORM.T_Projector_ORM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:067][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_A_N.T_Shelf_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:077][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_A_B.T_Shelf_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:077][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterE_ORM.T_PlanterE_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:092][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_A_ORM.T_Shelf_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:118][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_B_B.T_Shelf_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:132][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_B_N.T_Shelf_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:133][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_PlanterE_N.T_PlanterE_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:309][710]LogWorld: UWorld::CleanupWorld for L_Showcase, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-04.05.09:313][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-04.05.09:341][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_A_ORM.T_SofaB_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:355][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_A_B.T_SofaB_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:355][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_A_N.T_SofaB_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:359][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Shelf_B_ORM.T_Shelf_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:366][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaA_ORM.T_SofaA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:386][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaA_B.T_SofaA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:410][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaA_N.T_SofaA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:444][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.13-04.05.09:464][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.05.13-04.05.09:479][710]LogEnum: Warning: UEnum: In asset '/Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.Shot11.CameraComponent', there is an enum property of type 'ECameraFocusMethod' with an invalid value of 'ECameraFocusMethod::None' - loaded - 5
+[2026.05.13-04.05.09:683][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Stairs_ORM.T_Stairs_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:689][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_StatueA_B.T_StatueA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:696][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_B_ORM.T_SofaB_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:701][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Stairs_N.T_Stairs_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:709][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_B_N.T_SofaB_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:709][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Stairs_B.T_Stairs_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:751][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_SofaB_B_B.T_SofaB_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:940][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableB_N.T_TableB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:994][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_StatueA_ORM.T_StatueA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:996][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_StatueA_N.T_StatueA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.09:998][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableB_ORM.T_TableB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:000][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableB_B.T_TableB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:061][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableC_N.T_TableC_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:105][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableC_B.T_TableC_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:116][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableC_ORM.T_TableC_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:359][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableD_A_N.T_TableD_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:375][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_TableD_A_RGB.T_TableD_A_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:378][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_VegetationE_A_N.T_VegetationE_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:378][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_VegetationE_A_B.T_VegetationE_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:378][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_VegetationE_A_ORM.T_VegetationE_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:383][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallA_B.T_WallA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:495][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallA_N.T_WallA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:647][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodBeam_N.T_WoodBeam_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:662][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodPillar_N.T_WoodPillar_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:688][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallA_ORM.T_WallA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:703][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodBeam_ORM.T_WoodBeam_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:717][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodPillar_ORM.T_WoodPillar_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:718][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodBeam_B.T_WoodBeam_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:719][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WoodPillar_B.T_WoodPillar_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:771][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_A_B.T_DisplayShelf_A_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:780][710]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Showcase'.
+[2026.05.13-04.05.10:780][710]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Showcase
+[2026.05.13-04.05.10:835][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_A_N.T_DisplayShelf_A_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.10:998][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_B_E.T_DisplayShelf_B_E (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:006][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_B_N.T_DisplayShelf_B_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:013][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampA_E.T_LampA_E (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:027][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_B_B.T_DisplayShelf_B_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:056][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_A_ORM.T_DisplayShelf_A_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:061][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_DisplayShelf_B_ORM.T_DisplayShelf_B_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:093][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampA_B.T_LampA_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:142][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampA_N.T_LampA_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:156][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ParametricWall_RGB.T_ParametricWall_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:171][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_LampA_ORM.T_LampA_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:371][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_ParametricWall_N.T_ParametricWall_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:383][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallB_ORM.T_WallB_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:392][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallB_B.T_WallB_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:420][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Wood_N.T_Wood_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:428][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Wood_B.T_Wood_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:457][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_WallB_N.T_WallB_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:614][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_MK_MultiPurpose_Imp.T_MK_MultiPurpose_Imp (TFO_AutoDXT, 4160x4160 x1x1x1) (Required Memory Estimate: 1189.281234 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.11:636][710]LogTexture: Display: Building textures: /Game/Modern_Office/Textures/T_Wood_ORM.T_Wood_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.05.13-04.05.12:029][710]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.13-04.05.12:056][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.13-04.05.12:060][710]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.13-04.05.12:060][710]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2026.05.13-04.05.12:269][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:282][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:310][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:381][711]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.13-04.05.12:410][711]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.13-04.05.12:417][711]LogPSOHitching: Encountered 150 PSO creation hitches so far (54 graphics, 96 compute). 0 of them were precached.
+[2026.05.13-04.05.12:637][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:637][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:637][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:637][711]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.13-04.05.12:737][711]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.13-04.05.12:738][711]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.13-04.05.12:738][711]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.13-04.05.14:081][714]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.13-04.05.14:089][714]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.05.13-04.05.14:291][715]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2026.05.13-04.05.14:404][717]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (9 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (4096), r.Shadow.Virtual.ResolutionLodBiasLocal (0.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (-1.50), Global Resolution Lod Bias (0.12)
+[2026.05.13-04.05.14:415][717]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (48 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (4096), r.Shadow.Virtual.ResolutionLodBiasLocal (0.00), r.Shadow.Virtual.ResolutionLodBiasDirectional (-1.50), Global Resolution Lod Bias (0.19)
+[2026.05.13-04.05.14:842][736]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumGeometrySegments changed: current: 512 - new: 768
+[2026.05.13-04.05.16:295][800]LogPSOHitching: Encountered 200 PSO creation hitches so far (90 graphics, 110 compute). 0 of them were precached.
+[2026.05.13-04.05.33:044][591]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.05.13-04.05.33:074][591]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.05.13-04.05.45:520][323]Cmd: DELETE
+[2026.05.13-04.05.45:520][323]Cmd: ACTOR DELETE
+[2026.05.13-04.05.45:535][323]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2026.05.13-04.05.45:550][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2026.05.13-04.05.45:552][323]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2026.05.13-04.05.46:899][398]Cmd: DELETE
+[2026.05.13-04.05.46:899][398]Cmd: ACTOR DELETE
+[2026.05.13-04.05.46:912][398]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2026.05.13-04.05.46:927][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.05.46:930][398]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.05.48:441][477]Cmd: DELETE
+[2026.05.13-04.05.48:441][477]Cmd: ACTOR DELETE
+[2026.05.13-04.05.48:454][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.48:467][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.13-04.05.48:470][477]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.05.50:191][573]Cmd: DELETE
+[2026.05.13-04.05.50:191][573]Cmd: ACTOR DELETE
+[2026.05.13-04.05.50:204][573]LogEditorActor: Deleted Actor: PlanarReflection
+[2026.05.13-04.05.50:220][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.05.13-04.05.50:222][573]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.05.13-04.05.51:836][677]Cmd: DELETE
+[2026.05.13-04.05.51:836][677]Cmd: ACTOR DELETE
+[2026.05.13-04.05.51:848][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.51:862][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.05.51:864][677]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.05.52:465][713]Cmd: DELETE
+[2026.05.13-04.05.52:465][713]Cmd: ACTOR DELETE
+[2026.05.13-04.05.52:477][713]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.52:490][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.05.52:493][713]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.05.53:102][745]Cmd: DELETE
+[2026.05.13-04.05.53:102][745]Cmd: ACTOR DELETE
+[2026.05.13-04.05.53:115][745]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.53:128][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.05.53:131][745]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.05.53:578][767]Cmd: DELETE
+[2026.05.13-04.05.53:578][767]Cmd: ACTOR DELETE
+[2026.05.13-04.05.53:592][767]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.53:606][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.05.53:609][767]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.13-04.05.54:115][793]Cmd: DELETE
+[2026.05.13-04.05.54:115][793]Cmd: ACTOR DELETE
+[2026.05.13-04.05.54:129][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.54:143][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.05.13-04.05.54:147][793]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.05.13-04.05.54:905][838]Cmd: DELETE
+[2026.05.13-04.05.54:905][838]Cmd: ACTOR DELETE
+[2026.05.13-04.05.54:917][838]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.05.54:930][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.05.54:933][838]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.06.11:106][911]Cmd: DELETE
+[2026.05.13-04.06.11:106][911]Cmd: ACTOR DELETE
+[2026.05.13-04.06.11:119][911]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.11:133][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.11:140][911]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2026.05.13-04.06.11:941][962]Cmd: DELETE
+[2026.05.13-04.06.11:941][962]Cmd: ACTOR DELETE
+[2026.05.13-04.06.11:953][962]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.11:967][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.05.13-04.06.11:970][962]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.12:733][  9]Cmd: DELETE
+[2026.05.13-04.06.12:733][  9]Cmd: ACTOR DELETE
+[2026.05.13-04.06.12:745][  9]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.12:759][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.12:762][  9]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.13:572][ 59]Cmd: DELETE
+[2026.05.13-04.06.13:572][ 59]Cmd: ACTOR DELETE
+[2026.05.13-04.06.13:585][ 59]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.13:598][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.13:601][ 59]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.16:711][267]Cmd: DELETE
+[2026.05.13-04.06.16:711][267]Cmd: ACTOR DELETE
+[2026.05.13-04.06.16:723][267]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.16:738][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.16:740][267]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.17:619][322]Cmd: DELETE
+[2026.05.13-04.06.17:619][322]Cmd: ACTOR DELETE
+[2026.05.13-04.06.17:631][322]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.17:646][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.05.13-04.06.17:649][322]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.13-04.06.18:096][346]Cmd: DELETE
+[2026.05.13-04.06.18:096][346]Cmd: ACTOR DELETE
+[2026.05.13-04.06.18:107][346]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.18:120][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.18:123][346]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.05.13-04.06.18:620][373]Cmd: DELETE
+[2026.05.13-04.06.18:620][373]Cmd: ACTOR DELETE
+[2026.05.13-04.06.18:631][373]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.18:644][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.05.13-04.06.18:647][373]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.05.13-04.06.19:199][404]Cmd: DELETE
+[2026.05.13-04.06.19:199][404]Cmd: ACTOR DELETE
+[2026.05.13-04.06.19:211][404]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.19:225][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.05.13-04.06.19:227][404]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.24:448][826]Cmd: DELETE
+[2026.05.13-04.06.24:449][826]Cmd: ACTOR DELETE
+[2026.05.13-04.06.24:462][826]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.24:475][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.05.13-04.06.24:477][826]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.25:733][939]Cmd: DELETE
+[2026.05.13-04.06.25:733][939]Cmd: ACTOR DELETE
+[2026.05.13-04.06.25:746][939]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.25:760][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.05.13-04.06.25:763][939]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.27:213][ 65]Cmd: DELETE
+[2026.05.13-04.06.27:213][ 65]Cmd: ACTOR DELETE
+[2026.05.13-04.06.27:225][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.27:239][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.05.13-04.06.27:242][ 65]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.28:075][138]Cmd: DELETE
+[2026.05.13-04.06.28:075][138]Cmd: ACTOR DELETE
+[2026.05.13-04.06.28:087][138]LogEditorActor: Deleted Actor: BP_LampC_02_C
+[2026.05.13-04.06.28:101][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.05.13-04.06.28:103][138]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.28:787][193]Cmd: DELETE
+[2026.05.13-04.06.28:787][193]Cmd: ACTOR DELETE
+[2026.05.13-04.06.28:799][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.28:813][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.13-04.06.28:817][193]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.06.29:283][231]Cmd: DELETE
+[2026.05.13-04.06.29:284][231]Cmd: ACTOR DELETE
+[2026.05.13-04.06.29:296][231]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.29:309][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.06.29:312][231]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.06.29:940][281]Cmd: DELETE
+[2026.05.13-04.06.29:940][281]Cmd: ACTOR DELETE
+[2026.05.13-04.06.29:952][281]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.29:965][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.29:968][281]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.05.13-04.06.31:346][399]Cmd: DELETE
+[2026.05.13-04.06.31:346][399]Cmd: ACTOR DELETE
+[2026.05.13-04.06.31:359][399]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.31:373][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.06.31:376][399]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.06.32:404][486]Cmd: DELETE
+[2026.05.13-04.06.32:404][486]Cmd: ACTOR DELETE
+[2026.05.13-04.06.32:417][486]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.32:430][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.05.13-04.06.32:433][486]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.33:057][534]Cmd: DELETE
+[2026.05.13-04.06.33:057][534]Cmd: ACTOR DELETE
+[2026.05.13-04.06.33:069][534]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.33:083][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.06.33:087][534]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.06.33:837][595]Cmd: DELETE
+[2026.05.13-04.06.33:837][595]Cmd: ACTOR DELETE
+[2026.05.13-04.06.33:850][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.33:864][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.06.33:867][595]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.06.35:098][700]Cmd: DELETE
+[2026.05.13-04.06.35:098][700]Cmd: ACTOR DELETE
+[2026.05.13-04.06.35:098][700]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2026.05.13-04.06.35:112][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.35:125][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.05.13-04.06.35:129][700]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.06.35:482][724]Cmd: DELETE
+[2026.05.13-04.06.35:482][724]Cmd: ACTOR DELETE
+[2026.05.13-04.06.35:493][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.35:508][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.06.35:511][724]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.36:746][828]Cmd: DELETE
+[2026.05.13-04.06.36:746][828]Cmd: ACTOR DELETE
+[2026.05.13-04.06.36:759][828]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.36:773][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.05.13-04.06.36:776][828]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.06.43:752][401]Cmd: DELETE
+[2026.05.13-04.06.43:752][401]Cmd: ACTOR DELETE
+[2026.05.13-04.06.43:765][401]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.06.43:778][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.06.43:782][401]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.06.45:698][554]Cmd: TRANSACTION UNDO
+[2026.05.13-04.06.45:698][554]LogEditorTransaction: Undo Clicking on Elements
+[2026.05.13-04.06.46:114][559]Cmd: TRANSACTION UNDO
+[2026.05.13-04.06.46:114][559]LogEditorTransaction: Undo Delete Elements
+[2026.05.13-04.06.58:894][570]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Modern_Office/Meshes/SM_WallB_4x2.SM_WallB_4x2
+[2026.05.13-04.06.58:973][570]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.05.13-04.06.58:977][570]LogStreaming: Display: FlushAsyncLoading(481): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-04.06.58:986][570]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2026.05.13-04.06.58:993][570]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2026.05.13-04.06.59:001][570]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2026.05.13-04.06.59:002][570]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2026.05.13-04.07.02:455][752]LogSlate: Window 'SM_WallB_4x2' being destroyed
+[2026.05.13-04.07.02:460][752]LogSlate: Window 'SM_WallB_4x2' being destroyed
+[2026.05.13-04.07.02:489][752]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-04.07.02:489][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-04.07.02:526][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.13-04.07.11:010][442]Cmd: DELETE
+[2026.05.13-04.07.11:010][442]Cmd: ACTOR DELETE
+[2026.05.13-04.07.11:022][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.11:037][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.13-04.07.11:041][442]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.13-04.07.16:834][920]Cmd: DELETE
+[2026.05.13-04.07.16:834][920]Cmd: ACTOR DELETE
+[2026.05.13-04.07.16:847][920]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.16:861][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.16:864][920]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.07.17:741][988]Cmd: DELETE
+[2026.05.13-04.07.17:741][988]Cmd: ACTOR DELETE
+[2026.05.13-04.07.17:753][988]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.17:767][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.17:771][988]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.07.18:424][ 38]Cmd: DELETE
+[2026.05.13-04.07.18:424][ 38]Cmd: ACTOR DELETE
+[2026.05.13-04.07.18:436][ 38]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2026.05.13-04.07.18:451][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.07.18:454][ 38]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.07.19:013][ 77]Cmd: DELETE
+[2026.05.13-04.07.19:013][ 77]Cmd: ACTOR DELETE
+[2026.05.13-04.07.19:025][ 77]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.19:040][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.19:042][ 77]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.07.19:431][103]Cmd: DELETE
+[2026.05.13-04.07.19:431][103]Cmd: ACTOR DELETE
+[2026.05.13-04.07.19:443][103]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.19:456][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.05.13-04.07.19:459][103]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.07.20:743][201]Cmd: DELETE
+[2026.05.13-04.07.20:743][201]Cmd: ACTOR DELETE
+[2026.05.13-04.07.20:756][201]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.20:770][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.20:772][201]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.07.21:786][280]Cmd: DELETE
+[2026.05.13-04.07.21:786][280]Cmd: ACTOR DELETE
+[2026.05.13-04.07.21:800][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.07.21:814][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.21:817][280]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: ================================================
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Total job queries 816, among them cache hits 93 (11.40%), DDC hits 346 (42.40%), Duplicates 117 (14.34%)
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Tracking 606 distinct input hashes that result in 459 distinct outputs (75.74%)
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: RAM used: 5.50 MiB of 1.60 GiB budget. Usage: 0.34%
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Shaders Compiled: 260
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Jobs assigned 260, completed 260 (100%)
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Average time worker was idle: 3.06 s
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Time job spent in pending queue: average 4.85 s, longest 11.33 s
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Job execution time: average 2.05 s, max 4.89 s
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Job life time (pending + execution): average 6.90 s, max 11.94
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Shader code size: total 2.742 MiB, numShaders 263, average 10.678 KiB, min 2.691 KiB, max 52.341 KiB
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.26 s
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Jobs were issued in 130 batches (only local compilation was used), average 2.00 jobs/batch
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Average processing rate: 15.99 jobs/sec
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Total thread time: 102.54 s
+[2026.05.13-04.07.27:433][756]LogShaderCompilers: Display: Total thread preprocess time: 8.361 s
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Percentage time preprocessing: 8.15%
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Effective parallelization: 6.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.788194
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                               FLightFunctionRayTracingShader (compiled    3 times, average 1.35 sec, max 1.38 sec, min 1.32 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 1.10 sec, max 1.10 sec, min 1.09 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    5 times, average 1.06 sec, max 1.30 sec, min 0.87 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 0.94 sec, max 0.97 sec, min 0.90 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 0.83 sec, max 1.06 sec, min 0.69 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                                 FTranslucentLightingInjectPS - 24.44% of total time (compiled   64 times, average 0.39 sec, max 0.64 sec, min 0.09 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: FLumenDirectLightingShadowMaskFromLightAttenuationWithLightFunctionCS - 18.41% of total time (compiled   60 times, average 0.31 sec, max 0.35 sec, min 0.28 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.34% of total time (compiled   19 times, average 0.45 sec, max 0.76 sec, min 0.30 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 8.09% of total time (compiled   10 times, average 0.83 sec, max 1.06 sec, min 0.69 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 5.15% of total time (compiled    5 times, average 1.06 sec, max 1.30 sec, min 0.87 sec)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: === Material stats ===
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Materials Translated:    159
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Material Translation Only: 0.04 s (50%)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: Material Cache Hits: 34 (21%)
+[2026.05.13-04.07.27:434][756]LogShaderCompilers: Display: ================================================
+[2026.05.13-04.07.30:128][989]Cmd: TRANSACTION UNDO
+[2026.05.13-04.07.30:128][989]LogEditorTransaction: Undo Move Elements
+[2026.05.13-04.07.35:551][416]Cmd: DELETE
+[2026.05.13-04.07.35:551][416]Cmd: ACTOR DELETE
+[2026.05.13-04.07.35:564][416]LogEditorActor: Deleted Actor: SpotLight
+[2026.05.13-04.07.35:578][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.07.35:582][416]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.13-04.07.42:723][ 20]Cmd: DELETE
+[2026.05.13-04.07.42:723][ 20]Cmd: ACTOR DELETE
+[2026.05.13-04.07.42:735][ 20]LogEditorActor: Deleted Actor: RectLight
+[2026.05.13-04.07.42:750][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.07.42:755][ 20]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.05.13-04.07.43:570][ 97]Cmd: TRANSACTION UNDO
+[2026.05.13-04.07.43:570][ 97]LogEditorTransaction: Undo Delete Elements
+[2026.05.13-04.07.46:815][325]Cmd: DELETE
+[2026.05.13-04.07.46:815][325]Cmd: ACTOR DELETE
+[2026.05.13-04.07.46:827][325]LogEditorActor: Deleted Actor: RectLight
+[2026.05.13-04.07.46:841][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.07.46:846][325]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.13-04.07.55:594][103]Cmd: TRANSACTION UNDO
+[2026.05.13-04.07.55:594][103]LogEditorTransaction: Undo Move Elements
+[2026.05.13-04.07.57:776][249]Cmd: DELETE
+[2026.05.13-04.07.57:776][249]Cmd: ACTOR DELETE
+[2026.05.13-04.07.57:789][249]LogEditorActor: Deleted Actor: SpotLight
+[2026.05.13-04.07.57:804][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.05.13-04.07.57:811][249]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2026.05.13-04.08.01:361][567]Cmd: DELETE
+[2026.05.13-04.08.01:361][567]Cmd: ACTOR DELETE
+[2026.05.13-04.08.01:373][567]LogEditorActor: Deleted Actor: SpotLight
+[2026.05.13-04.08.01:388][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.05.13-04.08.01:390][567]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.08.02:691][685]Cmd: DELETE
+[2026.05.13-04.08.02:691][685]Cmd: ACTOR DELETE
+[2026.05.13-04.08.02:704][685]LogEditorActor: Deleted Actor: SpotLight
+[2026.05.13-04.08.02:718][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.08.02:721][685]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.08.09:137][265]Cmd: DELETE
+[2026.05.13-04.08.09:137][265]Cmd: ACTOR DELETE
+[2026.05.13-04.08.09:151][265]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.08.09:164][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.08.09:167][265]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.08.21:910][411]Cmd: DELETE
+[2026.05.13-04.08.21:910][411]Cmd: ACTOR DELETE
+[2026.05.13-04.08.21:922][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.08.21:935][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.05.13-04.08.21:939][411]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.08.22:467][453]Cmd: DELETE
+[2026.05.13-04.08.22:467][453]Cmd: ACTOR DELETE
+[2026.05.13-04.08.22:478][453]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.08.22:492][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.08.22:495][453]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.08.32:299][311]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2769.228760
+[2026.05.13-04.08.32:417][319]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-04.08.32:417][319]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2769.332031, Update Interval: 332.839142
+[2026.05.13-04.08.41:435][976]Cmd: DELETE
+[2026.05.13-04.08.41:435][976]Cmd: ACTOR DELETE
+[2026.05.13-04.08.42:936][976]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.42:944][976]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.42:958][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.08.42:962][976]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.05.13-04.08.48:700][345]Cmd: DELETE
+[2026.05.13-04.08.48:700][345]Cmd: ACTOR DELETE
+[2026.05.13-04.08.50:305][345]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.50:323][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.51:698][345]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.51:704][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.52:524][345]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.52:530][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.53:120][345]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.53:126][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:882][345]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.05.13-04.08.54:887][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:889][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:891][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:892][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:894][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:895][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:896][345]LogEditorActor: Deleted Actor: CineCameraActor
+[2026.05.13-04.08.54:911][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.08.54:916][345]LogEditorActor: Deleted 11 Actors (0.052 secs)
+[2026.05.13-04.09.22:011][625]Cmd: DUPLICATE
+[2026.05.13-04.09.22:011][625]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.09.45:884][631]Cmd: TRANSACTION UNDO
+[2026.05.13-04.09.45:884][631]LogEditorTransaction: Undo Clicking on Elements
+[2026.05.13-04.09.48:032][756]Cmd: DUPLICATE
+[2026.05.13-04.09.48:032][756]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.09.53:435][157]Cmd: TRANSACTION UNDO
+[2026.05.13-04.09.53:436][157]LogEditorTransaction: Undo Clicking on Elements
+[2026.05.13-04.09.53:841][162]Cmd: TRANSACTION UNDO
+[2026.05.13-04.09.53:841][162]LogEditorTransaction: Undo Move Elements
+[2026.05.13-04.09.54:860][230]Cmd: TRANSACTION UNDO
+[2026.05.13-04.09.54:860][230]LogEditorTransaction: Undo Duplicate Elements
+[2026.05.13-04.10.01:498][716]Cmd: DUPLICATE
+[2026.05.13-04.10.01:498][716]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.10.33:791][521]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.13-04.10.33:791][521]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.13-04.10.33:792][521]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.StaticMeshActor_0
+[2026.05.13-04.10.33:792][521]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.StaticMeshActor_0
+[2026.05.13-04.10.34:474][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.13-04.10.34:484][591]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2026.05.13-04.10.34:489][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.13-04.10.34:489][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.13-04.10.34:491][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.StaticMeshActor_1
+[2026.05.13-04.10.34:491][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Modern_Office/Maps/L_Showcase.L_Showcase:PersistentLevel.StaticMeshActor_1
+[2026.05.13-04.12.19:416][991]Cmd: DELETE
+[2026.05.13-04.12.19:417][991]Cmd: ACTOR DELETE
+[2026.05.13-04.12.19:429][991]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.19:444][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.13-04.12.19:454][991]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2026.05.13-04.12.20:198][ 58]Cmd: DELETE
+[2026.05.13-04.12.20:198][ 58]Cmd: ACTOR DELETE
+[2026.05.13-04.12.20:210][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.20:223][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.20:226][ 58]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.12.20:760][105]Cmd: DELETE
+[2026.05.13-04.12.20:760][105]Cmd: ACTOR DELETE
+[2026.05.13-04.12.20:772][105]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.20:785][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.20:788][105]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.12.21:583][177]Cmd: DELETE
+[2026.05.13-04.12.21:584][177]Cmd: ACTOR DELETE
+[2026.05.13-04.12.21:594][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.21:607][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.21:610][177]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.05.13-04.12.22:373][243]Cmd: DELETE
+[2026.05.13-04.12.22:373][243]Cmd: ACTOR DELETE
+[2026.05.13-04.12.22:385][243]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.22:399][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.22:402][243]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.12.23:770][382]Cmd: TRANSACTION UNDO
+[2026.05.13-04.12.23:770][382]LogEditorTransaction: Undo Delete Elements
+[2026.05.13-04.12.25:951][548]Cmd: DELETE
+[2026.05.13-04.12.25:951][548]Cmd: ACTOR DELETE
+[2026.05.13-04.12.25:962][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.25:976][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.25:981][548]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.12.29:173][874]Cmd: DELETE
+[2026.05.13-04.12.29:173][874]Cmd: ACTOR DELETE
+[2026.05.13-04.12.29:185][874]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.29:198][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.05.13-04.12.29:202][874]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.12.30:006][949]Cmd: DELETE
+[2026.05.13-04.12.30:007][949]Cmd: ACTOR DELETE
+[2026.05.13-04.12.30:018][949]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.30:032][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.30:035][949]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.05.13-04.12.30:730][ 12]Cmd: DELETE
+[2026.05.13-04.12.30:730][ 12]Cmd: ACTOR DELETE
+[2026.05.13-04.12.30:742][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.30:756][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.30:760][ 12]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.12.32:196][154]Cmd: DELETE
+[2026.05.13-04.12.32:196][154]Cmd: ACTOR DELETE
+[2026.05.13-04.12.32:208][154]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.32:222][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.05.13-04.12.32:225][154]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2026.05.13-04.12.34:018][330]Cmd: DELETE
+[2026.05.13-04.12.34:018][330]Cmd: ACTOR DELETE
+[2026.05.13-04.12.34:029][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.05.13-04.12.34:043][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.13-04.12.34:047][330]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.05.13-04.12.37:133][644]Cmd: DUPLICATE
+[2026.05.13-04.12.37:133][644]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.12.44:110][361]Cmd: DUPLICATE
+[2026.05.13-04.12.44:110][361]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.13.25:528][602]Cmd: DUPLICATE
+[2026.05.13-04.13.25:528][602]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.13.38:305][877]Cmd: DUPLICATE
+[2026.05.13-04.13.38:305][877]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.14.27:862][750]Cmd: MODE SCALEGRID=0
+[2026.05.13-04.14.41:479][ 84]Cmd: DUPLICATE
+[2026.05.13-04.14.41:479][ 84]Cmd: ACTOR DUPLICATE
+[2026.05.13-04.15.02:838][435]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.05.13-04.15.02:838][435]LogStreaming: Display: FlushAsyncLoading(487): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-04.15.02:848][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:HQ_Lightmap0_4 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:848][435]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Overview
+[2026.05.13-04.15.02:849][435]LogStaticMesh: Display: Building static mesh SM_FloorA_1x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.15.02:849][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:849][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 31.166582 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:850][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorA_1x1.SM_FloorA_1x1
+[2026.05.13-04.15.02:851][435]LogStaticMesh: Display: Building static mesh SM_FloorB_4x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.15.02:852][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorB_4x1.SM_FloorB_4x1
+[2026.05.13-04.15.02:852][435]LogStaticMesh: Display: Building static mesh SM_WallB_4x1 (Required Memory Estimate: 0.007617 MB)...
+[2026.05.13-04.15.02:852][435]LogStaticMesh: Display: Building static mesh SM_WoodBeamCross_2m (Required Memory Estimate: 0.079094 MB)...
+[2026.05.13-04.15.02:852][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallB_4x1.SM_WallB_4x1
+[2026.05.13-04.15.02:853][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:LQ_Lightmap_0_4 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:855][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WoodBeamCross_2m.SM_WoodBeamCross_2m
+[2026.05.13-04.15.02:856][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:857][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:857][435]LogStaticMesh: Display: Building static mesh SM_FloorEdge_Conference_2m (Required Memory Estimate: 0.016476 MB)...
+[2026.05.13-04.15.02:858][435]LogStaticMesh: Display: Building static mesh SM_WallA_4x1 (Required Memory Estimate: 0.007243 MB)...
+[2026.05.13-04.15.02:858][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_FloorEdge_Conference_2m.SM_FloorEdge_Conference_2m
+[2026.05.13-04.15.02:859][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 124.041655 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:859][435]LogStaticMesh: Display: Building static mesh SM_WallA_4x3 (Required Memory Estimate: 0.007243 MB)...
+[2026.05.13-04.15.02:859][435]LogTexture: Display: Building textures: /Game/Modern_Office/Maps/L_Overview_BuiltData.L_Overview_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 126.416656 MB), EncodeSpeed: Fast
+[2026.05.13-04.15.02:859][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_4x1.SM_WallA_4x1
+[2026.05.13-04.15.02:861][435]LogStaticMesh: Built static mesh [0.00s] /Game/Modern_Office/Meshes/SM_WallA_4x3.SM_WallA_4x3
+[2026.05.13-04.15.02:862][435]LogObjectTools: Deleting 2 worlds: /Game/Modern_Office/Maps/L_Showcase.L_Showcase, /Game/Modern_Office/Maps/L_Overview.L_Overview
+[2026.05.13-04.15.02:862][435]LogObjectTools: Currently 3 active worlds: /Game/Modern_Office/Maps/L_Showcase.L_Showcase, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2026.05.13-04.15.03:860][435]LogSlate: Window 'Unable to delete level' being destroyed
+[2026.05.13-04.15.03:866][435]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2026.05.13-04.15.03:878][435]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3160.810059
+[2026.05.13-04.15.04:037][447]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-04.15.04:037][447]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3160.960449, Update Interval: 347.178558
+[2026.05.13-04.15.26:244][773]LogFab: Display: Add listing to project - f2c14d3d-3928-4255-a118-5bf01b0bf1dd
+[2026.05.13-04.15.26:244][773]LogFab: Display: Listing type - unreal-engine
+[2026.05.13-04.15.26:244][773]LogFab: Display: Base Url https://epicgames-download1.akamaized.net/Builds/Rocket/Automated/LeartesO26b6abea5761V1/CloudDir,https://download.epicgames.com/Builds/Rocket/Automated/LeartesO26b6abea5761V1/CloudDir,https://egdownload.fastly-edge.com/Builds/Rocket/Automated/LeartesO26b6abea5761V1/CloudDir,https://egs-cloudfront-chunks.epicgamescdn.com/Builds/Rocket/Automated/LeartesO26b6abea5761V1/CloudDir
+[2026.05.13-04.15.50:117][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.13-04.15.50:315][ 80]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Modern_Office/Maps/L_Showcase_Auto1
+[2026.05.13-04.15.50:315][ 80]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/L_Showcase_Auto1399B982D48B87DF14A332F99011DD358.tmp' to '../../../../../../TheBox/TheBox/Saved/Autosaves/Game/Modern_Office/Maps/L_Showcase_Auto1.umap'
+[2026.05.13-04.15.50:316][ 80]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Modern_Office/Maps/L_Showcase' took 0.215
+[2026.05.13-04.15.50:316][ 80]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.215
