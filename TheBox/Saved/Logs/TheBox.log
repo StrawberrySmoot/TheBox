@@ -1285,3 +1285,16 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.13-03.37.53:789][492]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 930.714539
 [2026.05.13-03.37.54:030][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.13-03.37.54:030][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 930.947571, Update Interval: 333.935974
+[2026.05.13-03.40.44:189][656]LogDirectoryWatcher: Display: A directory notification failed for 'C:/TheBox/TheBox/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.13-03.40.44:189][656]LogDirectoryWatcher: Display: A directory notification failed for 'C:/TheBox/TheBox/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.13-03.40.44:189][656]LogDirectoryWatcher: Display: A directory notification failed for 'C:/TheBox/TheBox/Content/Developers/louie/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.13-03.40.44:239][657]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.13-03.43.37:594][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1274.518066
+[2026.05.13-03.43.38:594][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-03.43.38:594][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1275.184814, Update Interval: 350.483704
+[2026.05.13-03.49.56:943][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1653.865601
+[2026.05.13-03.49.57:943][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-03.49.57:943][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1654.532349, Update Interval: 317.756287
+[2026.05.13-03.56.01:734][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2018.657715
+[2026.05.13-03.56.02:735][570]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-03.56.02:736][570]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2019.324219, Update Interval: 327.395233
