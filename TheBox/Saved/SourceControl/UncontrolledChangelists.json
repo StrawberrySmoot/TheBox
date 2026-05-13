@@ -5,7 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/TheBox/TheBox/Content/OfficeRoom.umap",
 				"C:/TheBox/TheBox/Content/BoardRoom_HLOD0_Instancing.uasset",
 				"C:/TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/VO/CDC9Q05WIS2VJUWSP4L8E1.uasset",
 				"C:/TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/6/TV/EGDUMKV5WUUVJ5F3ZCT3IH.uasset",
@@ -151,7 +150,24 @@
 				"C:/TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/CL/DKW4R4M9T688CPQ26V0KB3.uasset",
 				"C:/TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/YR/7R925L08CV5305MBNWOWAJ.uasset",
 				"C:/TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/ZP/S34R6IBXR857QHCT08DB7N.uasset",
-				"C:/TheBox/TheBox/Content/BoardRoom.umap"
+				"C:/TheBox/TheBox/Content/BoardRoom.umap",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Materials/MI_table.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Textures/T_BookPen_ORM.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Textures/T_meetingtable_B.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Levels/LeartesOfficeProject.umap",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Cinematics/Cam01_02.umap",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Materials/MI_chair.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Materials/MI_notebook.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Textures/T_meetinchair_ORM.uasset",
+				"C:/TheBox/TheBox/Content/LeartesStudiosOffice/Textures/T_BookPen_B.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/Textures/T_ugfkdgsva_4K_N.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/Textures/T_ugfkdgsva_4K_ORM.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/Textures/T_ugfkdgsva_4K_B.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/Textures/T_ugfkdgsva_4K_H.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/Materials/MI_ugfkdgsva.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset",
+				"C:/TheBox/TheBox/Content/Fab/Megascans/3D/Travel_Coffee_Cup_ugfkdgsva/High/ugfkdgsva_tier_1/StaticMeshes/ugfkdgsva_tier_1.uasset",
+				"C:/TheBox/TheBox/Content/OfficeRoom.umap"
 			]
 		}
 	]

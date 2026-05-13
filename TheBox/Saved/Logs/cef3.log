@@ -1,1 +1,14 @@
 [0512/232425.413:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0513/003553.659:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 59
+[0513/003810.306:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 33
+[0513/003810.306:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
+[0513/003819.086:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 63
+[0513/003819.086:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 35
+[0513/003835.171:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 85
+[0513/003835.171:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 69
+[0513/004132.207:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 11
+[0513/004146.262:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 13
+[0513/004237.314:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 105
+[0513/004238.103:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 17
+[0513/004319.367:WARNING:video_capture_oracle.cc(151)] Event time is not monotonically non-decreasing.  Deciding not to capture this frame.
+[0513/004319.827:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 19

@@ -1,0 +1,6 @@
+2026/05/13-00:38:41.239 29a0 Creating DB C:/TheBox/TheBox/Saved/webcache_4430\IndexedDB\https_www.epicgames.com_0.indexeddb.leveldb since it was missing.
+2026/05/13-00:38:41.243 29a0 Reusing MANIFEST C:/TheBox/TheBox/Saved/webcache_4430\IndexedDB\https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/13-00:39:13.654 f64 Level-0 table #5: started
+2026/05/13-00:39:13.660 f64 Level-0 table #5: 3112 bytes OK
+2026/05/13-00:39:13.661 f64 Delete type=0 #3
+2026/05/13-00:39:13.662 f64 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
