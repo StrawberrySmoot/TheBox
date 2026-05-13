@@ -1431,3 +1431,464 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.13-03.08.40:750][ 99]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.05.13-03.08.40:785][103]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.05.13-03.08.58:540][234]LogDerivedDataCache: C:/Users/louie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.13-03.09.45:631][954]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2026.05.13-03.09.45:650][954]LogContentBrowser: Creating deferred item: NewWorld
+[2026.05.13-03.09.45:651][954]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.13-03.09.45:674][956]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2026.05.13-03.09.54:296][991]LogContentBrowser: Attempting asset rename: NewWorld -> OfficeRoom
+[2026.05.13-03.09.54:298][991]LogChaosDD: Creating Chaos Debug Draw Scene for world OfficeRoom
+[2026.05.13-03.09.54:300][991]LogContentBrowser: End creating deferred item NewWorld
+[2026.05.13-03.09.55:895][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.05.13-03.09.57:919][153]LogSlate: Window 'Save Content' being destroyed
+[2026.05.13-03.09.57:939][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-03.09.58:002][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OfficeRoom" FILE="../../../../../../TheBox/TheBox/Content/OfficeRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.13-03.09.58:014][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.13-03.09.58:025][153]LogSavePackage: Moving output files for package: /Game/OfficeRoom
+[2026.05.13-03.09.58:025][153]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OfficeRoom9AE77F7F43F8E61332AA2DAE471EDDFF.tmp' to '../../../../../../TheBox/TheBox/Content/OfficeRoom.umap'
+[2026.05.13-03.09.58:029][153]LogFileHelpers: Saving map 'OfficeRoom' took 0.027
+[2026.05.13-03.09.58:083][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.081 ms
+[2026.05.13-03.09.58:083][153]LogAssetEditorSubsystem: Opening Asset editor for World /Game/OfficeRoom.OfficeRoom
+[2026.05.13-03.09.58:084][153]Cmd: MAP LOAD FILE="../../../../../../TheBox/TheBox/Content/OfficeRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.13-03.09.58:123][153]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-03.09.58:124][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-03.09.58:124][153]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.05.13-03.09.58:138][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.13-03.09.58:148][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.13-03.09.58:152][153]LogWorld: UWorld::CleanupWorld for OfficeRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-03.09.58:152][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-03.09.58:163][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.05.13-03.09.58:173][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.13-03.09.58:173][153]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-03.09.58:174][153]LogAudio: Display: Audio Device (ID: 1) registered with world 'OfficeRoom'.
+[2026.05.13-03.09.58:174][153]LogChaosDD: Creating Chaos Debug Draw Scene for world OfficeRoom
+[2026.05.13-03.09.58:193][153]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.13-03.09.58:204][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.05.13-03.09.58:206][153]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.13-03.09.58:206][153]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.022ms to complete.
+[2026.05.13-03.09.58:266][153]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-03.09.58:266][153]LogContentValidation: Enabled validators:
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-03.09.58:267][153]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-03.09.58:267][153]AssetCheck: /Game/OfficeRoom Validating asset
+[2026.05.13-03.09.58:282][153]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../TheBox/TheBox/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.13-03.09.58:316][154]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.13-03.10.03:696][776]LogObjectTools: Deleting 1 worlds: /Game/OfficeRoom.OfficeRoom
+[2026.05.13-03.10.03:696][776]LogObjectTools: Currently 1 active worlds: /Game/OfficeRoom.OfficeRoom
+[2026.05.13-03.10.04:734][776]LogSlate: Window 'Unable to delete level' being destroyed
+[2026.05.13-03.10.04:740][776]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2026.05.13-03.10.15:117][997]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-03.10.17:762][997]LogSlate: Window 'New Level' being destroyed
+[2026.05.13-03.10.17:768][997]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.13-03.10.17:773][997]LogWorld: UWorld::CleanupWorld for OfficeRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-03.10.17:773][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-03.10.17:786][997]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.13-03.10.17:787][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.13-03.10.17:791][997]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2026.05.13-03.10.17:791][997]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2026.05.13-03.10.17:792][997]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.13-03.10.17:792][997]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.13-03.10.17:792][997]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_2.Untitled_2, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.13-03.10.17:936][997]LogWorldPartition: Display: WorldPartition initialize took 143.680 ms (total: 432.801 ms)
+[2026.05.13-03.10.18:061][997]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.13-03.10.18:076][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.13-03.10.18:076][997]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.13-03.10.18:077][997]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.721ms to complete.
+[2026.05.13-03.10.18:322][999]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.13-03.10.28:088][591]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.13-03.10.28:195][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BoardRoom" FILE="../../../../../../TheBox/TheBox/Content/BoardRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.13-03.10.28:214][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.13-03.10.28:223][591]LogSavePackage: Moving output files for package: /Game/BoardRoom
+[2026.05.13-03.10.28:223][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BoardRoom5D9611DC46B7F7B78FF4ABBE1258388B.tmp' to '../../../../../../TheBox/TheBox/Content/BoardRoom.umap'
+[2026.05.13-03.10.28:236][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-03.10.28:272][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.13-03.10.28:281][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.13-03.10.28:290][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.05.13-03.10.28:290][591]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BoardRoom_HLOD0_Instancing] ([1] browsable assets)...
+[2026.05.13-03.10.28:290][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/BoardRoom_HLOD0_Instancing]
+[2026.05.13-03.10.28:290][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BoardRoom_HLOD0_Instancing" FILE="../../../../../../TheBox/TheBox/Content/BoardRoom_HLOD0_Instancing.uasset" SILENT=true
+[2026.05.13-03.10.28:296][591]LogSavePackage: Moving output files for package: /Game/BoardRoom_HLOD0_Instancing
+[2026.05.13-03.10.28:296][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BoardRoom_HLOD0_Instancing171CFC394333D11A4FD8AD8F1FA23600.tmp' to '../../../../../../TheBox/TheBox/Content/BoardRoom_HLOD0_Instancing.uasset'
+[2026.05.13-03.10.28:302][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/VO/CDC9Q05WIS2VJUWSP4L8E1
+[2026.05.13-03.10.28:302][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/CDC9Q05WIS2VJUWSP4L8E164D971B7471E52102CA980A2751EDBBA.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/VO/CDC9Q05WIS2VJUWSP4L8E1.uasset'
+[2026.05.13-03.10.28:307][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/6/TV/EGDUMKV5WUUVJ5F3ZCT3IH
+[2026.05.13-03.10.28:307][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/EGDUMKV5WUUVJ5F3ZCT3IH6A8814184A4A9A8DFF441E8E8A04691C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/6/TV/EGDUMKV5WUUVJ5F3ZCT3IH.uasset'
+[2026.05.13-03.10.28:312][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/2/AD/982XFPAN7IGG33AZRVWQMJ
+[2026.05.13-03.10.28:312][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/982XFPAN7IGG33AZRVWQMJB171EFBE4C2667DC941A4B8C7D23FCCF.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/2/AD/982XFPAN7IGG33AZRVWQMJ.uasset'
+[2026.05.13-03.10.28:317][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/2/LK/RBM3OIYJJLHK53S25F39ON
+[2026.05.13-03.10.28:317][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/RBM3OIYJJLHK53S25F39ON7BB2256E47800E67B19EE7874C3339CE.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/2/LK/RBM3OIYJJLHK53S25F39ON.uasset'
+[2026.05.13-03.10.28:321][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/B/2J/S0YQSD0I9XNQ5FM16DI0AV
+[2026.05.13-03.10.28:321][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/S0YQSD0I9XNQ5FM16DI0AVE87886FC4A5CC15CDCEB86890DD5008A.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/B/2J/S0YQSD0I9XNQ5FM16DI0AV.uasset'
+[2026.05.13-03.10.28:326][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/D/B5/BFO496PAG72IW2OB9LEH0E
+[2026.05.13-03.10.28:326][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BFO496PAG72IW2OB9LEH0E1C513463446EC3AD348BF097ADB0B363.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/D/B5/BFO496PAG72IW2OB9LEH0E.uasset'
+[2026.05.13-03.10.28:331][591]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/BoardRoom/3/ZC/Q348VHQHDEMCLJLLJSHF08
+[2026.05.13-03.10.28:331][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/Q348VHQHDEMCLJLLJSHF081ED8401F449EC45D83FD6780F2EBCBB9.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalObjects__/BoardRoom/3/ZC/Q348VHQHDEMCLJLLJSHF08.uasset'
+[2026.05.13-03.10.28:371][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/8T/0WLZ8U4WER9YOYN25NTMZU
+[2026.05.13-03.10.28:371][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/0WLZ8U4WER9YOYN25NTMZUDF498376465C8BBF9552F69E6B0C0E99.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/8T/0WLZ8U4WER9YOYN25NTMZU.uasset'
+[2026.05.13-03.10.28:377][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/DA/VTEUT4M139KXDH7B7LB1LY
+[2026.05.13-03.10.28:377][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/VTEUT4M139KXDH7B7LB1LY95915B2F4B26AAA331D6C8AC9E76DAE5.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/DA/VTEUT4M139KXDH7B7LB1LY.uasset'
+[2026.05.13-03.10.28:382][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/AY/300B37B0M9EIN04Z65YE0K
+[2026.05.13-03.10.28:382][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/300B37B0M9EIN04Z65YE0KC42B92454068DF9555294EAD0BA956D5.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/AY/300B37B0M9EIN04Z65YE0K.uasset'
+[2026.05.13-03.10.28:388][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/LC/WR4GOO8H8NTP9HAEX9K4T1
+[2026.05.13-03.10.28:388][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/WR4GOO8H8NTP9HAEX9K4T12953E5F64559511A680779BCB6973DD4.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/LC/WR4GOO8H8NTP9HAEX9K4T1.uasset'
+[2026.05.13-03.10.28:393][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/UY/68SQRQVP7JU900IZI852PD
+[2026.05.13-03.10.28:393][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/68SQRQVP7JU900IZI852PD7B2A9B5D4A8C2FC2B855D5A1C203A3F6.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/UY/68SQRQVP7JU900IZI852PD.uasset'
+[2026.05.13-03.10.28:398][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/TP/VS5IZB3T27L3HML5IX7KZS
+[2026.05.13-03.10.28:398][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/VS5IZB3T27L3HML5IX7KZSA7EA61FC40B8AD779029D2AB752C72B2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/TP/VS5IZB3T27L3HML5IX7KZS.uasset'
+[2026.05.13-03.10.28:403][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/8/VL/FLMT4BNCRPWBHI9EEAE62T
+[2026.05.13-03.10.28:403][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FLMT4BNCRPWBHI9EEAE62T5AB754F44A182B556C75089DBCEB0EA2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/8/VL/FLMT4BNCRPWBHI9EEAE62T.uasset'
+[2026.05.13-03.10.28:408][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/3V/NDK8CSRVOMA3CE78WFBMKN
+[2026.05.13-03.10.28:408][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/NDK8CSRVOMA3CE78WFBMKN7C0FEFF24A05E3EFF1BDE0B44C5C8215.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/3V/NDK8CSRVOMA3CE78WFBMKN.uasset'
+[2026.05.13-03.10.36:508][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/XE/VWY5Y2ADQD3C2XOCTA96AJ
+[2026.05.13-03.10.36:508][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/VWY5Y2ADQD3C2XOCTA96AJ5D858FCD4ED9D280A9E0D1B57CDD77B0.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/XE/VWY5Y2ADQD3C2XOCTA96AJ.uasset'
+[2026.05.13-03.10.36:524][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/N4/GJE8XR07ZEYFGGJ5Z3RPAA
+[2026.05.13-03.10.36:524][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/GJE8XR07ZEYFGGJ5Z3RPAA444065114B8F9307D905ECB55E81FFA8.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/N4/GJE8XR07ZEYFGGJ5Z3RPAA.uasset'
+[2026.05.13-03.10.36:536][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/KQ/NBD4WFT8CCWFAQUTPZK2H2
+[2026.05.13-03.10.36:536][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/NBD4WFT8CCWFAQUTPZK2H2E2DBAD814E0F97F7A242029F24672047.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/KQ/NBD4WFT8CCWFAQUTPZK2H2.uasset'
+[2026.05.13-03.10.36:548][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/HL/OQYEZJBKGN2EFLL04U2K5T
+[2026.05.13-03.10.36:548][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OQYEZJBKGN2EFLL04U2K5TAF52434D495DAEFACAF2279112A930AD.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/HL/OQYEZJBKGN2EFLL04U2K5T.uasset'
+[2026.05.13-03.10.36:561][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/1V/CTU1D12PUY3SCU7EDUSAT9
+[2026.05.13-03.10.36:561][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/CTU1D12PUY3SCU7EDUSAT9A51B5F474F1BBEE14A39BB80ADA3556C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/1V/CTU1D12PUY3SCU7EDUSAT9.uasset'
+[2026.05.13-03.10.36:574][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/7K/OMI4USXAQZFRO3419O6838
+[2026.05.13-03.10.36:574][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OMI4USXAQZFRO3419O6838848E6536458B1874C50E2C991EBBB8F6.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/7K/OMI4USXAQZFRO3419O6838.uasset'
+[2026.05.13-03.10.36:587][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/J3/54HY9ODNQKKNSUC4GNESDD
+[2026.05.13-03.10.36:587][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/54HY9ODNQKKNSUC4GNESDD4F9A159E46D0DF089543879842371034.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/J3/54HY9ODNQKKNSUC4GNESDD.uasset'
+[2026.05.13-03.10.36:599][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/21/PTNYRRDPT0M3I27ZHKYETL
+[2026.05.13-03.10.36:599][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/PTNYRRDPT0M3I27ZHKYETL238A3CC1483C506B37ED1EB4EA92B565.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/21/PTNYRRDPT0M3I27ZHKYETL.uasset'
+[2026.05.13-03.10.36:612][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/N5/4ISCUQQF1444RQR4LL9S92
+[2026.05.13-03.10.36:612][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/4ISCUQQF1444RQR4LL9S92D721A6274E3124AB63AC558CD2808955.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/N5/4ISCUQQF1444RQR4LL9S92.uasset'
+[2026.05.13-03.10.36:626][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/I0/OU66U7HJNZQMFNJX04Z494
+[2026.05.13-03.10.36:626][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OU66U7HJNZQMFNJX04Z4947A1784F4487ADB0E1CBE25833907301A.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/I0/OU66U7HJNZQMFNJX04Z494.uasset'
+[2026.05.13-03.10.36:639][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/2O/CEPW52ONDIZA1692N3JWA6
+[2026.05.13-03.10.36:639][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/CEPW52ONDIZA1692N3JWA6B28D41D945057A58E81AA4B8B45144D2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/2O/CEPW52ONDIZA1692N3JWA6.uasset'
+[2026.05.13-03.10.36:653][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/MQ/2K65ARL8T65V59TGVQB8RO
+[2026.05.13-03.10.36:653][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/2K65ARL8T65V59TGVQB8ROFDF19835408727AF9BBCB5A0623F246A.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/MQ/2K65ARL8T65V59TGVQB8RO.uasset'
+[2026.05.13-03.10.36:666][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/MH/MGX59M1VVILBIPKG5TC3FG
+[2026.05.13-03.10.36:666][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/MGX59M1VVILBIPKG5TC3FG1DBDE99C45A8C71EDFD8C2BE960F7999.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/MH/MGX59M1VVILBIPKG5TC3FG.uasset'
+[2026.05.13-03.10.36:680][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/20/O02T0UFTS03ZB8F4HKX5DU
+[2026.05.13-03.10.36:680][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/O02T0UFTS03ZB8F4HKX5DU6A1CEC1C466A6BC47C8ED8B8668D8315.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/20/O02T0UFTS03ZB8F4HKX5DU.uasset'
+[2026.05.13-03.10.36:694][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/4W/YA63ETRF3P0X3D6K9X07C6
+[2026.05.13-03.10.36:694][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/YA63ETRF3P0X3D6K9X07C6F5ED7DEC4EB496615932CB92158A23FE.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/4W/YA63ETRF3P0X3D6K9X07C6.uasset'
+[2026.05.13-03.10.36:708][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/GI/X0L414MWSP4130V74SZOIN
+[2026.05.13-03.10.36:708][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/X0L414MWSP4130V74SZOIN11D561A047BAB688DB458D89153B0C71.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/GI/X0L414MWSP4130V74SZOIN.uasset'
+[2026.05.13-03.10.36:721][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/LQ/U12UP6JPT9FSC9TMAEA9S2
+[2026.05.13-03.10.36:722][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/U12UP6JPT9FSC9TMAEA9S2BB7E0031470BFEC21CD6519C50890612.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/LQ/U12UP6JPT9FSC9TMAEA9S2.uasset'
+[2026.05.13-03.10.36:735][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/BJ/3WAV37W6YPX7C7787QFOLI
+[2026.05.13-03.10.36:735][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/3WAV37W6YPX7C7787QFOLIFD9FA4104C322AF118E09FADD5752725.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/BJ/3WAV37W6YPX7C7787QFOLI.uasset'
+[2026.05.13-03.10.36:749][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/8/D2/FR4L1IHKNATLTWRTEB3AVR
+[2026.05.13-03.10.36:749][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FR4L1IHKNATLTWRTEB3AVR9500D58F4DD93D57AC2158B27FDD61A9.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/8/D2/FR4L1IHKNATLTWRTEB3AVR.uasset'
+[2026.05.13-03.10.36:762][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/0B/PRT1O5S9EV8B39EBXZ918B
+[2026.05.13-03.10.36:762][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/PRT1O5S9EV8B39EBXZ918B2AEE22504CE75735AF640A97426B8E9F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/0B/PRT1O5S9EV8B39EBXZ918B.uasset'
+[2026.05.13-03.10.36:776][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/F7/NUZX0DCBZVWDQBGMVT18X4
+[2026.05.13-03.10.36:776][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/NUZX0DCBZVWDQBGMVT18X4B7677D0C402BEE36969B23BB62792852.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/F7/NUZX0DCBZVWDQBGMVT18X4.uasset'
+[2026.05.13-03.10.36:789][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/NP/XSALNV12WB273SCS929P6V
+[2026.05.13-03.10.36:789][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/XSALNV12WB273SCS929P6V7B9652F6417C19E4BDBA93A72A4A1F3C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/NP/XSALNV12WB273SCS929P6V.uasset'
+[2026.05.13-03.10.36:803][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/S7/H7287T6N9ONWJNU33FW998
+[2026.05.13-03.10.36:803][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/H7287T6N9ONWJNU33FW99894626FF042CAE3896217D0A69E3C11C7.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/S7/H7287T6N9ONWJNU33FW998.uasset'
+[2026.05.13-03.10.36:817][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/4Y/8WNXE3OK5M8WTQ9VCXH23M
+[2026.05.13-03.10.36:817][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/8WNXE3OK5M8WTQ9VCXH23M8311EF69497144D34DBE928B47AF8E99.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/4Y/8WNXE3OK5M8WTQ9VCXH23M.uasset'
+[2026.05.13-03.10.36:830][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/1R/YNHGE705J9QBV93NXF3RJ7
+[2026.05.13-03.10.36:830][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/YNHGE705J9QBV93NXF3RJ75C34899A4B07BA430C8B9CB5215C8074.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/1R/YNHGE705J9QBV93NXF3RJ7.uasset'
+[2026.05.13-03.10.36:844][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/CT/6BJU6VGF10GSYTXXASVJC0
+[2026.05.13-03.10.36:844][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/6BJU6VGF10GSYTXXASVJC0454F73EC49AB977C6BA44382F87D78A8.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/CT/6BJU6VGF10GSYTXXASVJC0.uasset'
+[2026.05.13-03.10.36:858][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/AK/9PCCEQ328EFYEM27SGZ7KS
+[2026.05.13-03.10.36:858][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/9PCCEQ328EFYEM27SGZ7KS09E0FF544114A62E3D0B919D687DE69A.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/AK/9PCCEQ328EFYEM27SGZ7KS.uasset'
+[2026.05.13-03.10.36:871][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/CC/XSZHNX2IDPSXMGI81ULSXR
+[2026.05.13-03.10.36:871][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/XSZHNX2IDPSXMGI81ULSXR65718A8241906E8BB1A1D0A2391D17D7.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/CC/XSZHNX2IDPSXMGI81ULSXR.uasset'
+[2026.05.13-03.10.36:885][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/FU/XVZ5H8ZSQ3OFSESOF0WU4R
+[2026.05.13-03.10.36:885][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/XVZ5H8ZSQ3OFSESOF0WU4R37DCF4644E34F85EEE9EA58A84C2BC85.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/FU/XVZ5H8ZSQ3OFSESOF0WU4R.uasset'
+[2026.05.13-03.10.36:897][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/0D/RX1MB1QKWADCND1I3JLVFN
+[2026.05.13-03.10.36:897][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/RX1MB1QKWADCND1I3JLVFN194645BC4324E2E258E2AFB06781C5DF.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/0D/RX1MB1QKWADCND1I3JLVFN.uasset'
+[2026.05.13-03.10.36:911][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/AA/IV36PG4ZRRWGNZ7X4Y59NC
+[2026.05.13-03.10.36:911][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/IV36PG4ZRRWGNZ7X4Y59NC25AB118C40C19DA6B9E6119CC2DB98AB.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/AA/IV36PG4ZRRWGNZ7X4Y59NC.uasset'
+[2026.05.13-03.10.36:925][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/3P/AN9N1XWRZHJ8R5JEO9SA6O
+[2026.05.13-03.10.36:925][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/AN9N1XWRZHJ8R5JEO9SA6O3665CC4B4B9B42341C28258F73F39FCE.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/3P/AN9N1XWRZHJ8R5JEO9SA6O.uasset'
+[2026.05.13-03.10.36:938][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/1O/OIIIQRRI502VO68BCSZHFM
+[2026.05.13-03.10.36:938][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OIIIQRRI502VO68BCSZHFM83B004034C72191DCE978D8FEF27B0E5.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/1O/OIIIQRRI502VO68BCSZHFM.uasset'
+[2026.05.13-03.10.36:952][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/FT/W3VT9Z4TYD3WJVKKUETQNB
+[2026.05.13-03.10.36:952][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/W3VT9Z4TYD3WJVKKUETQNB6ABBD1264B8D158A87AFF080247BD324.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/FT/W3VT9Z4TYD3WJVKKUETQNB.uasset'
+[2026.05.13-03.10.36:966][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/FP/R0KY6QHEJHT52ETV8HZ7TB
+[2026.05.13-03.10.36:966][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/R0KY6QHEJHT52ETV8HZ7TB87D56DFB4A1ACDEE961AF38FDF8F4511.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/FP/R0KY6QHEJHT52ETV8HZ7TB.uasset'
+[2026.05.13-03.10.36:980][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/TN/5XDK1JHC1X8RTOSGL12BGP
+[2026.05.13-03.10.36:980][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/5XDK1JHC1X8RTOSGL12BGP39C264DB43DAE76450901A9C509C3A04.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/TN/5XDK1JHC1X8RTOSGL12BGP.uasset'
+[2026.05.13-03.10.36:994][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/J5/WZI9OBQUTBW81FE2W9KOYA
+[2026.05.13-03.10.36:994][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/WZI9OBQUTBW81FE2W9KOYAC9E9437C4E4CABEB0A42539E43F4E139.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/J5/WZI9OBQUTBW81FE2W9KOYA.uasset'
+[2026.05.13-03.10.37:008][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/HQ/EGJHAYZFPHI08BB9LEU6GP
+[2026.05.13-03.10.37:008][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/EGJHAYZFPHI08BB9LEU6GP1D8B56D14C0BA67B8B9A6B937CF8F731.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/HQ/EGJHAYZFPHI08BB9LEU6GP.uasset'
+[2026.05.13-03.10.37:021][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/B3/KUWV3EF6310JEK316GD23X
+[2026.05.13-03.10.37:021][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/KUWV3EF6310JEK316GD23X9F18BE054D960FA551765CA6C8D5C880.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/B3/KUWV3EF6310JEK316GD23X.uasset'
+[2026.05.13-03.10.37:035][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/Q2/JHPPACZ7JXP9D37KLEVYW5
+[2026.05.13-03.10.37:035][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/JHPPACZ7JXP9D37KLEVYW5B5F3A2784687441D0201EF90034089B3.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/Q2/JHPPACZ7JXP9D37KLEVYW5.uasset'
+[2026.05.13-03.10.37:049][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/7I/KS8FG1LZB8ONXEN6B11UXC
+[2026.05.13-03.10.37:049][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/KS8FG1LZB8ONXEN6B11UXC6489AAF741E78ED02EDA55956C37B7E2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/7I/KS8FG1LZB8ONXEN6B11UXC.uasset'
+[2026.05.13-03.10.37:062][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/B5/P988WVMIO58DDGTCJ7YM8Q
+[2026.05.13-03.10.37:062][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/P988WVMIO58DDGTCJ7YM8QCB5DE7B5444205B90966F4B67768ED97.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/B5/P988WVMIO58DDGTCJ7YM8Q.uasset'
+[2026.05.13-03.10.37:076][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/BN/G0TTAWAFLTPXVFMU9UINAD
+[2026.05.13-03.10.37:076][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/G0TTAWAFLTPXVFMU9UINADC6ED7124487BDEC4B83F998FEFF48BC4.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/BN/G0TTAWAFLTPXVFMU9UINAD.uasset'
+[2026.05.13-03.10.37:090][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/2J/ACTKA9N2JUQCREPPUU0OSI
+[2026.05.13-03.10.37:090][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/ACTKA9N2JUQCREPPUU0OSIBA770C2A445FB62B6F3210B7D3A1296A.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/2J/ACTKA9N2JUQCREPPUU0OSI.uasset'
+[2026.05.13-03.10.37:104][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/IR/F4AY9RO4N371695WO7UITN
+[2026.05.13-03.10.37:104][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/F4AY9RO4N371695WO7UITN942525C9423C5684B3A482B2B80AD41D.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/IR/F4AY9RO4N371695WO7UITN.uasset'
+[2026.05.13-03.10.37:117][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/LV/Z7NTP0HFX3DRJHBEZPJJG6
+[2026.05.13-03.10.37:117][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/Z7NTP0HFX3DRJHBEZPJJG6D3F5280C443689387D1EA191B10E811D.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/LV/Z7NTP0HFX3DRJHBEZPJJG6.uasset'
+[2026.05.13-03.10.37:130][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/T7/1D228IQ7BYBC80AO3312LF
+[2026.05.13-03.10.37:130][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/1D228IQ7BYBC80AO3312LF28EBBD624D7036ED41D4FFB1D9C5BC69.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/T7/1D228IQ7BYBC80AO3312LF.uasset'
+[2026.05.13-03.10.37:145][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/JG/28BNZQH17B4BX51DVAB8UZ
+[2026.05.13-03.10.37:145][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/28BNZQH17B4BX51DVAB8UZ18487AA44190688CFDB97699206F6407.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/JG/28BNZQH17B4BX51DVAB8UZ.uasset'
+[2026.05.13-03.10.37:159][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/8/QW/CYGS8YCD9WO82LEOAY8AZI
+[2026.05.13-03.10.37:159][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/CYGS8YCD9WO82LEOAY8AZI6449071C4283303041A3CB83B5F2168D.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/8/QW/CYGS8YCD9WO82LEOAY8AZI.uasset'
+[2026.05.13-03.10.37:173][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/XG/0C8KWHJKFB06HXWKVYHV9X
+[2026.05.13-03.10.37:173][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/0C8KWHJKFB06HXWKVYHV9X3E8F2785474BB490E1CC96BD9BE67995.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/XG/0C8KWHJKFB06HXWKVYHV9X.uasset'
+[2026.05.13-03.10.37:187][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/TL/UMJAUG9UFD86ANIIN27DHI
+[2026.05.13-03.10.37:187][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/UMJAUG9UFD86ANIIN27DHIB82AAD3C4643F7EA973CCAAA47A33930.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/TL/UMJAUG9UFD86ANIIN27DHI.uasset'
+[2026.05.13-03.10.37:200][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/KZ/IA8GOORSJ85Q2GESTLQ4ER
+[2026.05.13-03.10.37:200][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/IA8GOORSJ85Q2GESTLQ4ERFFB54615424EBF6EA4F2449BAF0C68ED.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/KZ/IA8GOORSJ85Q2GESTLQ4ER.uasset'
+[2026.05.13-03.10.37:214][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/63/RAXE8IVF5Q11DCDY7A8MX2
+[2026.05.13-03.10.37:214][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/RAXE8IVF5Q11DCDY7A8MX2D99C63994B38CFB4001104814992EF6C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/63/RAXE8IVF5Q11DCDY7A8MX2.uasset'
+[2026.05.13-03.10.37:227][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/JD/02I9ZIMEJXSS2LUJ9V90T7
+[2026.05.13-03.10.37:227][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/02I9ZIMEJXSS2LUJ9V90T7BBCA88CE49D7593C96B6A991A139FA3E.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/JD/02I9ZIMEJXSS2LUJ9V90T7.uasset'
+[2026.05.13-03.10.37:241][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/D/3W/GSW8OG6VTCKKPOIOFIAW1F
+[2026.05.13-03.10.37:241][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/GSW8OG6VTCKKPOIOFIAW1FA2E837C24C68C7E1AE732EA45BCE1AB2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/D/3W/GSW8OG6VTCKKPOIOFIAW1F.uasset'
+[2026.05.13-03.10.37:255][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/85/B5XJK3JI7TR51D8GAT9RN8
+[2026.05.13-03.10.37:255][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/B5XJK3JI7TR51D8GAT9RN8A08D62604E94AB14E593CD9838E94987.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/85/B5XJK3JI7TR51D8GAT9RN8.uasset'
+[2026.05.13-03.10.37:268][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/0V/CKZ4W3MT52961YQ5LTYAAR
+[2026.05.13-03.10.37:268][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/CKZ4W3MT52961YQ5LTYAAR31F7C01149310656F70295A1CB7647DB.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/0V/CKZ4W3MT52961YQ5LTYAAR.uasset'
+[2026.05.13-03.10.37:281][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/GZ/IG6WR7OVIN5GIKJQN5SG36
+[2026.05.13-03.10.37:281][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/IG6WR7OVIN5GIKJQN5SG3690796E3A4763C426AEF8129D8A3CEE44.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/GZ/IG6WR7OVIN5GIKJQN5SG36.uasset'
+[2026.05.13-03.10.37:296][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/W9/S7GV0LTZTFOC5F81KJ45T2
+[2026.05.13-03.10.37:296][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/S7GV0LTZTFOC5F81KJ45T2CF2494244C3FE9539862C6BAE5B895EB.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/W9/S7GV0LTZTFOC5F81KJ45T2.uasset'
+[2026.05.13-03.10.37:310][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/OV/MHJJKKFCKYYWMUCNXFHL1K
+[2026.05.13-03.10.37:310][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/MHJJKKFCKYYWMUCNXFHL1K672B4A5247531068A351169642B86CFA.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/OV/MHJJKKFCKYYWMUCNXFHL1K.uasset'
+[2026.05.13-03.10.37:324][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/K1/C8CUSW00LNLFB44S0CLXEN
+[2026.05.13-03.10.37:324][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/C8CUSW00LNLFB44S0CLXEN3CF062FE4810868A2A8BAFB0177854D8.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/K1/C8CUSW00LNLFB44S0CLXEN.uasset'
+[2026.05.13-03.10.37:337][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/K9/LABM9Y44PW3XEWOQGZ9BZP
+[2026.05.13-03.10.37:337][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/LABM9Y44PW3XEWOQGZ9BZPD6B704DA482663C080486792FF9E733E.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/K9/LABM9Y44PW3XEWOQGZ9BZP.uasset'
+[2026.05.13-03.10.37:350][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/A2/KSWEWIFGQWTJP3HNRKK0RH
+[2026.05.13-03.10.37:350][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/KSWEWIFGQWTJP3HNRKK0RH6B4FFEE044C31CAD7B7ADEA977594471.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/A2/KSWEWIFGQWTJP3HNRKK0RH.uasset'
+[2026.05.13-03.10.37:365][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/IU/H9E3G7Y3MKZ8JEBBAA4DG8
+[2026.05.13-03.10.37:365][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/H9E3G7Y3MKZ8JEBBAA4DG89D7677D14C698331337315A642F23A88.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/IU/H9E3G7Y3MKZ8JEBBAA4DG8.uasset'
+[2026.05.13-03.10.37:379][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/KB/C3R25EOX6FV9MQ3W12OY4B
+[2026.05.13-03.10.37:379][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/C3R25EOX6FV9MQ3W12OY4BF0DA3C1948008B6A720FCCBECE19C503.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/KB/C3R25EOX6FV9MQ3W12OY4B.uasset'
+[2026.05.13-03.10.37:387][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/OZ/NVSQLEA91NXQA2IAQNY93L
+[2026.05.13-03.10.37:387][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/NVSQLEA91NXQA2IAQNY93LDFF1DBF94CDB55570EF7CF8A26FA4C35.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/OZ/NVSQLEA91NXQA2IAQNY93L.uasset'
+[2026.05.13-03.10.37:395][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/EP/T2AWELA2KRW0F2KNQ7JKXY
+[2026.05.13-03.10.37:395][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/T2AWELA2KRW0F2KNQ7JKXY6F1F6A5D419674616760289D068E4CEF.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/EP/T2AWELA2KRW0F2KNQ7JKXY.uasset'
+[2026.05.13-03.10.37:402][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/QF/N2YCVV7NR8LQ5WZQKBFXZN
+[2026.05.13-03.10.37:402][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/N2YCVV7NR8LQ5WZQKBFXZN8276E113467D358370F2C8AD52626A1F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/QF/N2YCVV7NR8LQ5WZQKBFXZN.uasset'
+[2026.05.13-03.10.37:410][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/ZW/57V1QMSH9IGVS793HI9X6U
+[2026.05.13-03.10.37:410][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/57V1QMSH9IGVS793HI9X6U59410F2042B047E099540A959206FD8C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/ZW/57V1QMSH9IGVS793HI9X6U.uasset'
+[2026.05.13-03.10.37:417][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/D/GJ/7IZWW8N6LC7ODUBNPUB3OZ
+[2026.05.13-03.10.37:417][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/7IZWW8N6LC7ODUBNPUB3OZ7D962AC5409D80BEB968C68F818A46FF.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/D/GJ/7IZWW8N6LC7ODUBNPUB3OZ.uasset'
+[2026.05.13-03.10.37:425][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/H2/2XBFXB27GFC79JM0ZJSJQA
+[2026.05.13-03.10.37:425][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/2XBFXB27GFC79JM0ZJSJQA27B1E05147E911291543B59774F0CC6F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/H2/2XBFXB27GFC79JM0ZJSJQA.uasset'
+[2026.05.13-03.10.37:433][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/4R/4NKCNNSA8O3LSBUQRLYOLU
+[2026.05.13-03.10.37:433][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/4NKCNNSA8O3LSBUQRLYOLU28267B7940478C10EDD0698D9547B204.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/4R/4NKCNNSA8O3LSBUQRLYOLU.uasset'
+[2026.05.13-03.10.37:440][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/UM/NU15N5NVX61PAQ3NB7GA86
+[2026.05.13-03.10.37:440][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/NU15N5NVX61PAQ3NB7GA860D22165849AAF60B1051378183915EB1.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/UM/NU15N5NVX61PAQ3NB7GA86.uasset'
+[2026.05.13-03.10.37:448][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/86/BF6AXQPWKN0HAMRUUL2HJG
+[2026.05.13-03.10.37:448][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BF6AXQPWKN0HAMRUUL2HJG82FE82CA4E4B862A173F288E4C69D33B.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/86/BF6AXQPWKN0HAMRUUL2HJG.uasset'
+[2026.05.13-03.10.37:455][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/MJ/L6MFXH6VM8GAAG2OO1B8X8
+[2026.05.13-03.10.37:455][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/L6MFXH6VM8GAAG2OO1B8X84A038AC543DF2221826A27A05819B8A5.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/MJ/L6MFXH6VM8GAAG2OO1B8X8.uasset'
+[2026.05.13-03.10.37:462][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/UB/L0AML42AB1LI9SMV5XPGO9
+[2026.05.13-03.10.37:462][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/L0AML42AB1LI9SMV5XPGO94D2F31BE42E668BDABC5B49AA5A23F43.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/UB/L0AML42AB1LI9SMV5XPGO9.uasset'
+[2026.05.13-03.10.37:470][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/UX/FRWLX3BFP0T2SHZX3C3FY7
+[2026.05.13-03.10.37:470][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FRWLX3BFP0T2SHZX3C3FY723637FC740FCDD64FBAA4F94781EABC8.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/UX/FRWLX3BFP0T2SHZX3C3FY7.uasset'
+[2026.05.13-03.10.37:477][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/XA/4Z55HEV73JB3VC8DTCRVW0
+[2026.05.13-03.10.37:477][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/4Z55HEV73JB3VC8DTCRVW0EC7F64AB48A8D1794FB90FA793CD4A1F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/XA/4Z55HEV73JB3VC8DTCRVW0.uasset'
+[2026.05.13-03.10.37:484][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/W1/5RJPW22M9VXPL8T3HENZHB
+[2026.05.13-03.10.37:484][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/5RJPW22M9VXPL8T3HENZHB1038851E414E636FB926EF980F952B11.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/W1/5RJPW22M9VXPL8T3HENZHB.uasset'
+[2026.05.13-03.10.37:491][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/M0/ZJV4KXKP757T57Y0K05J1L
+[2026.05.13-03.10.37:491][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/ZJV4KXKP757T57Y0K05J1L1F483CB84667F4E30EE9DF80E10D84F9.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/M0/ZJV4KXKP757T57Y0K05J1L.uasset'
+[2026.05.13-03.10.37:499][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/EF/XR8NDT5K7XSR2LUP5XT7FB
+[2026.05.13-03.10.37:499][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/XR8NDT5K7XSR2LUP5XT7FB230660BE49DBC303A19F54A93180F9AA.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/EF/XR8NDT5K7XSR2LUP5XT7FB.uasset'
+[2026.05.13-03.10.37:506][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/1R/I85M2IGYIYMGTR89FDJSIP
+[2026.05.13-03.10.37:506][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/I85M2IGYIYMGTR89FDJSIP3F9295114CEEFA3ACDB69F9316209684.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/1R/I85M2IGYIYMGTR89FDJSIP.uasset'
+[2026.05.13-03.10.37:514][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/8U/MDHEWM654ZB6G9TGQ4E5IU
+[2026.05.13-03.10.37:514][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/MDHEWM654ZB6G9TGQ4E5IU409DB28B436DE1CBD9F0F4B8BD69EB8F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/8U/MDHEWM654ZB6G9TGQ4E5IU.uasset'
+[2026.05.13-03.10.37:521][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/8/ED/3V7F5K71WL1OV2NUHWPD1N
+[2026.05.13-03.10.37:521][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/3V7F5K71WL1OV2NUHWPD1N345C1A574E803F8C2BE8AD838D794882.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/8/ED/3V7F5K71WL1OV2NUHWPD1N.uasset'
+[2026.05.13-03.10.37:529][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/F9/1BG4X19LTRFMWXSILBXSGR
+[2026.05.13-03.10.37:529][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/1BG4X19LTRFMWXSILBXSGRECFB5EB147604F1ADC1C5D918EFDB21F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/F9/1BG4X19LTRFMWXSILBXSGR.uasset'
+[2026.05.13-03.10.37:536][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/NM/4UK79AY735JIGGLYE0M4KH
+[2026.05.13-03.10.37:536][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/4UK79AY735JIGGLYE0M4KHF4A927654C7C8389A148B185409EAF52.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/NM/4UK79AY735JIGGLYE0M4KH.uasset'
+[2026.05.13-03.10.37:543][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/F/4F/1RGYXSIRRF0YFZAA6GRR1F
+[2026.05.13-03.10.37:543][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/1RGYXSIRRF0YFZAA6GRR1F48002B094C2F08CAEA5ECF9E54B90EE9.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/F/4F/1RGYXSIRRF0YFZAA6GRR1F.uasset'
+[2026.05.13-03.10.37:551][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/U7/VH0JHS7XAZTS4TG5H85FZJ
+[2026.05.13-03.10.37:551][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/VH0JHS7XAZTS4TG5H85FZJCA04CAC240C3AD74613D36BECED5EFF1.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/U7/VH0JHS7XAZTS4TG5H85FZJ.uasset'
+[2026.05.13-03.10.37:558][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/01/PZ2KW1D549VO19N33BZPLW
+[2026.05.13-03.10.37:558][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/PZ2KW1D549VO19N33BZPLW800F70C4488D4D1DEBE6BEADA2389A7B.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/01/PZ2KW1D549VO19N33BZPLW.uasset'
+[2026.05.13-03.10.37:565][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/CH/9FH8NV6HH5D0Q2O8RMXP4A
+[2026.05.13-03.10.37:565][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/9FH8NV6HH5D0Q2O8RMXP4AED93936B487517F159567387686CC3C3.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/CH/9FH8NV6HH5D0Q2O8RMXP4A.uasset'
+[2026.05.13-03.10.37:571][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/H9/7ANGBTNN0JICF6I3FTI8WW
+[2026.05.13-03.10.37:571][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/7ANGBTNN0JICF6I3FTI8WWB5229BD34F0A5E270DD4FF84E8D9A4A9.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/H9/7ANGBTNN0JICF6I3FTI8WW.uasset'
+[2026.05.13-03.10.37:580][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/4K/7C8PB49OQNKESOY100IWY9
+[2026.05.13-03.10.37:580][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/7C8PB49OQNKESOY100IWY9B7ACD998443F619CCED0B48BA8CD263F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/4K/7C8PB49OQNKESOY100IWY9.uasset'
+[2026.05.13-03.10.37:587][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/II/E4VJ9VHVZF8GSAVFVXSS1P
+[2026.05.13-03.10.37:588][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/E4VJ9VHVZF8GSAVFVXSS1P2C8C0DA34ABFFA6678B9478C3FE4FEC3.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/II/E4VJ9VHVZF8GSAVFVXSS1P.uasset'
+[2026.05.13-03.10.37:594][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/D5/8SOU57PHL6PCY8NVQRE0EX
+[2026.05.13-03.10.37:595][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/8SOU57PHL6PCY8NVQRE0EXD324287243990CF442D1F5B73982B0DB.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/D5/8SOU57PHL6PCY8NVQRE0EX.uasset'
+[2026.05.13-03.10.37:601][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/Y3/D5J8TM0NN51IZYBXKEG874
+[2026.05.13-03.10.37:601][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/D5J8TM0NN51IZYBXKEG87490D10EB74F64B200E948899FFC2E9311.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/Y3/D5J8TM0NN51IZYBXKEG874.uasset'
+[2026.05.13-03.10.37:609][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/HA/JUFQTJI07R7ZKQ99Q40DT4
+[2026.05.13-03.10.37:609][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/JUFQTJI07R7ZKQ99Q40DT4A855E24E41170CDB649EB18F0C4C5605.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/HA/JUFQTJI07R7ZKQ99Q40DT4.uasset'
+[2026.05.13-03.10.37:616][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/47/BZGWHKMPKPPVOGE9RLRIBR
+[2026.05.13-03.10.37:616][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BZGWHKMPKPPVOGE9RLRIBR9DFD585442379579DB8BDCAF83524772.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/47/BZGWHKMPKPPVOGE9RLRIBR.uasset'
+[2026.05.13-03.10.37:624][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/8/WZ/FINRRJC3Y4PBO0ZM3GDZG8
+[2026.05.13-03.10.37:624][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FINRRJC3Y4PBO0ZM3GDZG8891F72414A2AEB66E3177282DFC80A1C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/8/WZ/FINRRJC3Y4PBO0ZM3GDZG8.uasset'
+[2026.05.13-03.10.37:631][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/C/N4/5YY4EJ6X8O6OSWRQO9KCY7
+[2026.05.13-03.10.37:631][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/5YY4EJ6X8O6OSWRQO9KCY73ED820634EA2906664D70D95AC2880C5.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/C/N4/5YY4EJ6X8O6OSWRQO9KCY7.uasset'
+[2026.05.13-03.10.37:639][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/GS/RXRDPQS0GU1S5X0PW9HZ6X
+[2026.05.13-03.10.37:639][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/RXRDPQS0GU1S5X0PW9HZ6X867635E549672F3CFD94D588007E8072.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/GS/RXRDPQS0GU1S5X0PW9HZ6X.uasset'
+[2026.05.13-03.10.37:646][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/NW/RT34PNU2KQOM6F32OF162W
+[2026.05.13-03.10.37:646][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/RT34PNU2KQOM6F32OF162W5BF8BFC2478EAC22D756C98389DB86C4.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/NW/RT34PNU2KQOM6F32OF162W.uasset'
+[2026.05.13-03.10.37:653][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/8N/WG5W4KMFHO720063QYN09G
+[2026.05.13-03.10.37:653][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/WG5W4KMFHO720063QYN09GF4A2FC5E4C366E033BAD2F8F72E01138.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/8N/WG5W4KMFHO720063QYN09G.uasset'
+[2026.05.13-03.10.37:660][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/T0/O1BGLSDDATD3NZU23IOIVH
+[2026.05.13-03.10.37:660][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/O1BGLSDDATD3NZU23IOIVHA41815154B0E0063B70198A39EC35576.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/T0/O1BGLSDDATD3NZU23IOIVH.uasset'
+[2026.05.13-03.10.37:667][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/D6/OEX73OR65N5JGBU9LG5EJU
+[2026.05.13-03.10.37:667][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/OEX73OR65N5JGBU9LG5EJU8F3330A742552ACB404EC1AE6FC0DAA8.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/D6/OEX73OR65N5JGBU9LG5EJU.uasset'
+[2026.05.13-03.10.37:675][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/ZN/PPJKJFSKT8BR0BFPMYMM5H
+[2026.05.13-03.10.37:675][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/PPJKJFSKT8BR0BFPMYMM5HF842EC394DD386B2ABCAE48C46F39D87.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/ZN/PPJKJFSKT8BR0BFPMYMM5H.uasset'
+[2026.05.13-03.10.37:683][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/7C/TQSZ9MJFV60LR7U5HZ2FWO
+[2026.05.13-03.10.37:683][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/TQSZ9MJFV60LR7U5HZ2FWO2228F6D14E62F6A210278B9DEF5093BD.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/7C/TQSZ9MJFV60LR7U5HZ2FWO.uasset'
+[2026.05.13-03.10.37:690][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/28/FTAX9K86VKQB6QDEPR7PVT
+[2026.05.13-03.10.37:690][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FTAX9K86VKQB6QDEPR7PVT1BCC09C74DBB1E32865B6DA8DAD3F4ED.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/28/FTAX9K86VKQB6QDEPR7PVT.uasset'
+[2026.05.13-03.10.37:697][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/2/HQ/I1WBQRANV1IPAJ0T2XBB7L
+[2026.05.13-03.10.37:697][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/I1WBQRANV1IPAJ0T2XBB7L9D5BC13B46901A15A9CEBBA37AC4C29C.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/2/HQ/I1WBQRANV1IPAJ0T2XBB7L.uasset'
+[2026.05.13-03.10.37:705][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/KS/WZZ8QSVZOV7ABX0QOX1XSU
+[2026.05.13-03.10.37:705][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/WZZ8QSVZOV7ABX0QOX1XSU62549DD44E361A96F06C0F85C76F3951.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/KS/WZZ8QSVZOV7ABX0QOX1XSU.uasset'
+[2026.05.13-03.10.37:714][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/1/1X/T223K0OWGR1HQCYEQPJ3KJ
+[2026.05.13-03.10.37:714][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/T223K0OWGR1HQCYEQPJ3KJ62241D3F40B4301EDD2BEDAA0B6B4A3F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/1/1X/T223K0OWGR1HQCYEQPJ3KJ.uasset'
+[2026.05.13-03.10.37:721][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/BV/JQYCSAZ0GC0GGGTJ6XHMD3
+[2026.05.13-03.10.37:721][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/JQYCSAZ0GC0GGGTJ6XHMD3647315384F12717C36CDE99F4A2D4D29.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/BV/JQYCSAZ0GC0GGGTJ6XHMD3.uasset'
+[2026.05.13-03.10.37:728][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/0/CD/QWUUPLSWEWXFTQLSAG7UGE
+[2026.05.13-03.10.37:728][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/QWUUPLSWEWXFTQLSAG7UGE3DC351714063B9E18917C5B82403CFC4.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/0/CD/QWUUPLSWEWXFTQLSAG7UGE.uasset'
+[2026.05.13-03.10.37:735][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/N1/IDBG96A0BZKANO8PCI9BIW
+[2026.05.13-03.10.37:735][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/IDBG96A0BZKANO8PCI9BIW994D91C14A723AC1AB8E528E356F2CA6.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/N1/IDBG96A0BZKANO8PCI9BIW.uasset'
+[2026.05.13-03.10.37:743][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/BY/N0CQPNORLRWIPOB9CQF92Q
+[2026.05.13-03.10.37:743][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/N0CQPNORLRWIPOB9CQF92Q2999492A4620EDE8D28440827816F4F6.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/BY/N0CQPNORLRWIPOB9CQF92Q.uasset'
+[2026.05.13-03.10.37:750][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/JX/GTEIM21DXUVP57MN4F7SBE
+[2026.05.13-03.10.37:750][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/GTEIM21DXUVP57MN4F7SBEF5907E0F4F11289987654FA9DA04F742.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/JX/GTEIM21DXUVP57MN4F7SBE.uasset'
+[2026.05.13-03.10.37:758][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/4/2M/FK19ZPXFE117LAARKI3HRD
+[2026.05.13-03.10.37:758][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/FK19ZPXFE117LAARKI3HRD344248784368EAC8B5BC5B850B569C56.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/4/2M/FK19ZPXFE117LAARKI3HRD.uasset'
+[2026.05.13-03.10.37:765][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/5U/UMXESOW6YTATDF14I2BUXZ
+[2026.05.13-03.10.37:765][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/UMXESOW6YTATDF14I2BUXZ75CC3ABF430D3B7D36806C9A6CBD22A1.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/5U/UMXESOW6YTATDF14I2BUXZ.uasset'
+[2026.05.13-03.10.37:771][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/B/XY/06DPW8JBSU2YG9BYW50WYD
+[2026.05.13-03.10.37:771][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/06DPW8JBSU2YG9BYW50WYD2C0DEEDB4DADFE456827A5BD315B8AA2.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/B/XY/06DPW8JBSU2YG9BYW50WYD.uasset'
+[2026.05.13-03.10.37:779][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/7/T8/17ISXWWV3C3TAATQX3XM6U
+[2026.05.13-03.10.37:779][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/17ISXWWV3C3TAATQX3XM6UCD1E7C2C4B3E7CE0161FBE802BD25E0F.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/7/T8/17ISXWWV3C3TAATQX3XM6U.uasset'
+[2026.05.13-03.10.37:786][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/V6/AWWBGWOEOUY7JUW2Z0TV1G
+[2026.05.13-03.10.37:786][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/AWWBGWOEOUY7JUW2Z0TV1G420EAC944F20ED117F7432BA829540EE.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/V6/AWWBGWOEOUY7JUW2Z0TV1G.uasset'
+[2026.05.13-03.10.37:793][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/J4/WKOQBWD0MWHUFG8G5W93WO
+[2026.05.13-03.10.37:793][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/WKOQBWD0MWHUFG8G5W93WO05D5789E408655CC2A4C89AB4C769259.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/J4/WKOQBWD0MWHUFG8G5W93WO.uasset'
+[2026.05.13-03.10.37:800][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/YO/BFBJE1L7EFWI4JITEHXT5A
+[2026.05.13-03.10.37:800][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BFBJE1L7EFWI4JITEHXT5A4603B5184737331C96620FBD65D502D4.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/YO/BFBJE1L7EFWI4JITEHXT5A.uasset'
+[2026.05.13-03.10.37:807][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/6/89/IS2AG56FY5QKI2X09Q2WOG
+[2026.05.13-03.10.37:807][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/IS2AG56FY5QKI2X09Q2WOG6F332DBF4661A96D8CDEB7B4E16380F3.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/6/89/IS2AG56FY5QKI2X09Q2WOG.uasset'
+[2026.05.13-03.10.37:815][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/50/BENKLILMA3IB5FQBR7MR8O
+[2026.05.13-03.10.37:815][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/BENKLILMA3IB5FQBR7MR8O86B9D19C44D637CB30CD13A9D7169BA6.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/50/BENKLILMA3IB5FQBR7MR8O.uasset'
+[2026.05.13-03.10.37:821][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/9/QI/SOSH4PB2QR56UOS5O4W6KN
+[2026.05.13-03.10.37:821][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/SOSH4PB2QR56UOS5O4W6KNF9F2522E45EB87E37A66F88CC0CEBC27.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/9/QI/SOSH4PB2QR56UOS5O4W6KN.uasset'
+[2026.05.13-03.10.37:829][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/E/5H/MMLPO6RMTKFMFPZEEJPHI5
+[2026.05.13-03.10.37:829][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/MMLPO6RMTKFMFPZEEJPHI5DC3DC702408E221B9CBD458F551132FB.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/E/5H/MMLPO6RMTKFMFPZEEJPHI5.uasset'
+[2026.05.13-03.10.37:836][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/A/CL/DKW4R4M9T688CPQ26V0KB3
+[2026.05.13-03.10.37:836][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/DKW4R4M9T688CPQ26V0KB316033C6B4C24192155179488903F9E7D.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/A/CL/DKW4R4M9T688CPQ26V0KB3.uasset'
+[2026.05.13-03.10.37:843][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/3/YR/7R925L08CV5305MBNWOWAJ
+[2026.05.13-03.10.37:843][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/7R925L08CV5305MBNWOWAJ4A0D52B64A524074482FBB9EDFDC7743.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/3/YR/7R925L08CV5305MBNWOWAJ.uasset'
+[2026.05.13-03.10.37:851][591]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/BoardRoom/5/ZP/S34R6IBXR857QHCT08DB7N
+[2026.05.13-03.10.37:851][591]LogSavePackage: Moving '../../../../../../TheBox/TheBox/Saved/S34R6IBXR857QHCT08DB7ND138C916467EA21381EE6EB563D9E304.tmp' to '../../../../../../TheBox/TheBox/Content/__ExternalActors__/BoardRoom/5/ZP/S34R6IBXR857QHCT08DB7N.uasset'
+[2026.05.13-03.10.37:854][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.61 sec (total: 9.76 sec)
+[2026.05.13-03.10.37:867][591]LogFileHelpers: Saving map 'BoardRoom' took 9.773
+[2026.05.13-03.10.37:867][591]Cmd: MAP LOAD FILE="../../../../../../TheBox/TheBox/Content/BoardRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.13-03.10.37:880][591]LogWorld: UWorld::CleanupWorld for BoardRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-03.10.37:880][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-03.10.37:880][591]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/BoardRoom.BoardRoom
+[2026.05.13-03.10.37:898][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.13-03.10.37:904][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.05.13-03.10.37:905][591]LogStreaming: Display: FlushAsyncLoading(621): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-03.10.37:907][591]LogAudio: Display: Audio Device (ID: 1) registered with world 'BoardRoom'.
+[2026.05.13-03.10.37:907][591]LogChaosDD: Creating Chaos Debug Draw Scene for world BoardRoom
+[2026.05.13-03.10.37:908][591]LogWorldPartition: ULevel::OnLevelLoaded(BoardRoom)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.13-03.10.37:908][591]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.13-03.10.37:908][591]LogWorldPartition: UWorldPartition::Initialize : World = /Game/BoardRoom.BoardRoom, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.13-03.10.37:919][591]LogTexture: Display: Building textures: /Game/BoardRoom.BoardRoom:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927.MinimapTexture (TFO_AutoDXT VT, 2048x2048 x1x1x1) (Required Memory Estimate: 187.666666 MB), EncodeSpeed: Fast
+[2026.05.13-03.10.38:068][591]LogWorldPartition: Display: WorldPartition initialize took 159.417 ms (total: 592.219 ms)
+[2026.05.13-03.10.38:189][591]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.13-03.10.38:203][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.13-03.10.38:206][591]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.13-03.10.38:207][591]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.781ms to complete.
+[2026.05.13-03.10.38:289][591]LogContentValidation: Display: Starting to validate 146 assets
+[2026.05.13-03.10.38:289][591]LogContentValidation: Enabled validators:
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-03.10.38:289][591]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-03.10.38:290][591]AssetCheck: /Game/BoardRoom Validating asset
+[2026.05.13-03.10.38:290][591]AssetCheck: /Game/BoardRoom_HLOD0_Instancing Validating asset
+[2026.05.13-03.10.38:518][591]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../TheBox/TheBox/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.13-03.10.38:537][592]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.13-03.10.46:971][571]LogShaderCompilers: Display: ================================================
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Total job queries 18,376, among them cache hits 4,853 (26.41%), DDC hits 12,428 (67.63%), Duplicates 588 (3.20%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Tracking 12,935 distinct input hashes that result in 11,838 distinct outputs (91.52%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: RAM used: 158.23 MiB of 1.60 GiB budget. Usage: 9.66%
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Shaders Compiled: 507
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Jobs assigned 507, completed 507 (100%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Average time worker was idle: 0.35 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Time job spent in pending queue: average 3.10 s, longest 20.12 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Job execution time: average 3.50 s, max 15.84 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Job life time (pending + execution): average 6.60 s, max 21.63
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Shader code size: total 8.396 MiB, numShaders 530, average 16.224 KiB, min 2.246 KiB, max 55.505 KiB
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 48.82 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Jobs were issued in 132 batches (only local compilation was used), average 3.84 jobs/batch
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Average processing rate: 10.39 jobs/sec
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Total thread time: 339.838 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Total thread preprocess time: 144.356 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Percentage time preprocessing: 42.48%
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Effective parallelization: 6.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.870190
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                                     FLumenInitialSamplingRGS (compiled    1 times, average 3.76 sec, max 3.76 sec, min 3.76 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 3.22 sec, max 4.97 sec, min 1.65 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 3.05 sec, max 4.84 sec, min 1.27 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 2.72 sec, max 3.92 sec, min 1.51 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 2.62 sec, max 2.62 sec, min 2.62 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 38.56% of total time (compiled   80 times, average 1.64 sec, max 2.00 sec, min 1.38 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 8.18% of total time (compiled   16 times, average 1.74 sec, max 2.31 sec, min 1.39 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 7.58% of total time (compiled    8 times, average 3.22 sec, max 4.97 sec, min 1.65 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.42% of total time (compiled   45 times, average 0.41 sec, max 2.63 sec, min 0.19 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.46% of total time (compiled   51 times, average 0.30 sec, max 2.14 sec, min 0.10 sec)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: === Material stats ===
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Materials Translated:    143
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Material Translation Only: 0.03 s (35%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: Material Cache Hits: 1 (1%)
+[2026.05.13-03.10.46:972][571]LogShaderCompilers: Display: ================================================
+[2026.05.13-03.11.23:524][932]LogStreaming: Display: FlushAsyncLoading(765): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-03.11.23:525][932]LogChaosDD: Creating Chaos Debug Draw Scene for world OfficeRoom
+[2026.05.13-03.11.23:525][932]LogObjectTools: Deleting 1 worlds: /Game/OfficeRoom.OfficeRoom
+[2026.05.13-03.11.23:525][932]LogObjectTools: Currently 1 active worlds: /Game/BoardRoom.BoardRoom
+[2026.05.13-03.11.23:539][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.13-03.11.23:659][932]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.05.13-03.11.23:666][932]LogSlate: Took 0.006517 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.05.13-03.11.25:386][932]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.13-03.11.25:391][932]LogWorld: UWorld::CleanupWorld for OfficeRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-03.11.25:391][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-03.11.25:411][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.13-03.11.25:420][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.13-03.11.25:429][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
